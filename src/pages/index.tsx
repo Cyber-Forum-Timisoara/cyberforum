@@ -105,8 +105,8 @@ const Homepage = () => {
           <LocationCard/>
         </div>
 
-        <HeaderBanner text='Sponsors' icon={sponsor}/>
-        <LogoCard/>
+        {/* <HeaderBanner text='Sponsors' icon={sponsor}/>
+        <LogoCard/> */}
       </div>
 
       <div>
