@@ -65,7 +65,7 @@ export const ScheduleCard = () => {
             <div className="w-auto">
                 <Badge label='Conference Day 1' variant='malicious'/>
             </div>
-            <h2 className="font-medium text-[40px] leading-[40px] text-liliac-fields font-simplon-mono">Friday, November 15th</h2>
+            <h2 className="font-medium text-[40px] leading-[40px] text-liliac-fields font-simplon-mono">Thursday, November 14th</h2>
             {toggleButton}
             
             <div>
@@ -228,7 +228,7 @@ export const ScheduleCard = () => {
         <div className="w-auto">
                 <Badge label='Conference Day 2' variant='malicious'/>
             </div>       
-            <h2 className="font-medium text-[40px] leading-[40px] text-liliac-fields font-simplon-mono">Saturday, November 16th</h2>
+            <h2 className="font-medium text-[40px] leading-[40px] text-liliac-fields font-simplon-mono">Friday, November 15th</h2>
             {toggleButton2}
         
             {selectedViewCard === 'presentations' ? (
