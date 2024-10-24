@@ -95,7 +95,7 @@ const Homepage = () => {
       
 
         <div id="sponsors"  className="w-full flex flex-col gap-y-5">
-          <HeaderBanner text='Founding Sponsors' icon={founding}/>
+          <HeaderBanner text='Founding Members' icon={founding}/>
           <SponsorsCard/>
         </div>
 
