@@ -17,19 +17,19 @@ export const Footer = () => {
                         </div>
                     </div>
                     <div className="justify-start items-start gap-6 flex mt-4 md:mt-0">
-                        <a href="https://www.facebook.com/OPSWAT" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com/people/Timisoara-Cyber-Forum/61566370995014/" target="_blank" rel="noopener noreferrer">
                             <img src={facebook} alt="Facebook" />
                         </a>
-                        <a href="https://www.x.com/opswat" target="_blank" rel="noopener noreferrer">
+                        {/* <a href="https://www.x.com/opswat" target="_blank" rel="noopener noreferrer">
                             <img src={Twitter} alt="Twitter" />
                         </a>
                         <a href="https://www.linkedin.com/company/opswat" target="_blank" rel="noopener noreferrer">
                             <img src={linkedin} alt="LinkedIn" />
-                        </a>
-                        <a href="https://www.youtube.com/@OpswatInc" target="_blank" rel="noopener noreferrer">
+                        </a> */}
+                        {/* <a href="https://www.youtube.com/@OpswatInc" target="_blank" rel="noopener noreferrer">
                             <img src={youtube} alt="YouTube" />
-                        </a>
-                        <a href="https://www.instagram.com/opswat/" target="_blank" rel="noopener noreferrer">
+                        </a> */}
+                        <a href="https://www.instagram.com/cyberforum.tm/" target="_blank" rel="noopener noreferrer">
                             <img src={Instagram} alt="Instagram" />
                         </a>
                     </div>

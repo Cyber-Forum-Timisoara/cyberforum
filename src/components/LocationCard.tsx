@@ -18,7 +18,7 @@ export const LocationCard = () => {
                 Main Event / Workshops
               </div>
               <p className="font-simplon-mono font-medium text-white text-2xl leading-[normal] max-w-[400px]">
-                Biblioteca Centrală a Universității Politehnica Timisoara
+                Centrul de conferințe UPT Timisoara
               </p>
               <p className="font-normal text-chrome text-lg leading-[26px]">
                 Bulevardul Vasile Pârvan 2, Timisoara

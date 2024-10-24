@@ -42,7 +42,7 @@ export const VideoContainer = () => {
                 <div className='relative flex flex-col justify-center items-center text-white pb-[200px] text-2xl leading-6 z-20 lg:text-xl lg:leading-6 md:text-lg xs:text-base'>
                     <div>November 14th-15th</div>
                     <div className=' text-center pb-[30px]'>
-                        Biblioteca Centrală a Universității Politehnica 
+                        Centrul de conferințe UPT 
                         <br></br>
                         Timisoara, Romania
                     </div>
