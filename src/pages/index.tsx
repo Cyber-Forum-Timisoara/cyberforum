@@ -89,10 +89,10 @@ const Homepage = () => {
        
         <div id="schedule"  className="w-full flex flex-col gap-y-5">
           <HeaderBanner text='Schedule' icon={schedule}/>
+          <HeaderBanner text='Moderator: Adrian Seceleanu, Editor Business Hi-Tech, Ziarul Financiar' icon={''}/>
           <ScheduleCard/>
         </div>
 
-      
 
         <div id="sponsors"  className="w-full flex flex-col gap-y-5">
           <HeaderBanner text='Founding Members' icon={founding}/>
@@ -100,13 +100,14 @@ const Homepage = () => {
         </div>
 
         
-        <div id="location"  className="w-full flex flex-col gap-y-5">
+        <div id="location" className="w-full flex flex-col gap-y-5">
           <HeaderBanner text='Where it all happens' icon={location}/>
           <LocationCard/>
         </div>
 
         {/* <HeaderBanner text='Sponsors' icon={sponsor}/>
         <LogoCard/> */}
+
       </div>
 
       <div>

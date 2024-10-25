@@ -77,8 +77,14 @@ export const ScheduleCard = () => {
             </div>
 
             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-chrome  text-2xl font-medium">12:00</div>
-                <div className="text-liliac-fields text-2xl font-medium">Opening ceremony</div>
+                <div className="text-white text-2xl font-medium flex items-center">12:00</div>
+                <div className="flex flex-row gap-3 items-center">
+               
+                    <div className="flex flex-col">
+                    <div className="text-white text-2xl font-medium">Opening ceremony</div>
+                    <div className="text-liliac-fields text-lg leading-[26px]">Adrian Seceleanu - Editor Business Hi-Tech, Ziarul Financiar</div>
+                    </div>
+                </div>
             </div>
 
             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
