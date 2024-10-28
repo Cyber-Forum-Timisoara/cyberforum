@@ -89,7 +89,6 @@ const Homepage = () => {
        
         <div id="schedule"  className="w-full flex flex-col gap-y-5">
           <HeaderBanner text='Schedule' icon={schedule}/>
-          <HeaderBanner text='Moderator: Adrian Seceleanu, Editor Business Hi-Tech, Ziarul Financiar' icon={''}/>
           <ScheduleCard/>
         </div>
 
