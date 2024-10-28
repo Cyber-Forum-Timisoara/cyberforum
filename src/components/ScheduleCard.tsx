@@ -81,8 +81,8 @@ export const ScheduleCard = () => {
                 <div className="flex flex-row gap-3 items-center">
                
                     <div className="flex flex-col">
-                    <div className="text-white text-2xl font-medium">Opening ceremony</div>
-                    <div className="text-liliac-fields text-lg leading-[26px]">Adrian Seceleanu - Editor Business Hi-Tech, Ziarul Financiar</div>
+                    <div className="text-white text-2xl font-medium">Opening Plenary</div>
+                    <div className="text-liliac-fields text-lg leading-[26px]">Moderated by Adrian Seceleanu - Editor Business Hi-Tech, Ziarul Financiar</div>
                     </div>
                 </div>
             </div>
@@ -94,8 +94,9 @@ export const ScheduleCard = () => {
                     <img src={scan} alt="scan icon"></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-2xl font-medium">Panel Name</div>
-                    <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
+                    <div className="text-white text-2xl font-medium">	
+                    Keynote Session 1 </div>
+                    <div className="text-liliac-fields text-lg leading-[26px]">Jan Miller, CTO, Threat Intel, OPSWAT </div>
                     </div>
                 </div>
             </div>
@@ -107,8 +108,8 @@ export const ScheduleCard = () => {
                     <img src={scan} alt="scan icon"></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-2xl font-medium">Panel Name</div>
-                    <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
+                    <div className="text-white text-2xl font-medium">Keynote Session 2</div>
+                    <div className="text-liliac-fields text-lg leading-[26px]">Vassilis Manoussos, Expert Witness, Digital Evidence & Cybercrime, Visiting Lecturer @ Sheffield Hallam University, UK</div>
                     </div>
                 </div>
             </div>
@@ -125,8 +126,8 @@ export const ScheduleCard = () => {
                     <img src={scan} alt="scan icon"></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-2xl font-medium">Panel Name</div>
-                    <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
+                    <div className="text-white text-2xl font-medium">Entrepreneurship Panel: How to Grow & Finance Your Cybersecurity Business?</div>
+                    {/* <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div> */}
                     </div>
                 </div>
             </div>
@@ -138,15 +139,15 @@ export const ScheduleCard = () => {
                     <img src={scan} alt="scan icon"></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-2xl font-medium">Panel Name</div>
-                    <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
+                    <div className="text-white text-2xl font-medium">Keynote Session 3</div>
+                    <div className="text-liliac-fields text-lg leading-[26px]">Virgil Stănciulescu, Expert, IT Division, Romanian National Authority for Administration and Regulation in Communications (ANCOM)</div>
                     </div>
                 </div>
             </div>
 
             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
                 <div className="text-chrome  text-2xl font-medium">17:00</div>
-                <div className="text-liliac-fields text-2xl font-medium">Networking</div>
+                <div className="text-liliac-fields text-2xl font-medium">NETWORKING PARTY - ARChA</div>
             </div>
         </div>
 
@@ -169,8 +170,8 @@ export const ScheduleCard = () => {
                     <img src={scan} alt="scan icon"></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-2xl font-medium">Workshop Name</div>
-                    <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
+                    <div className="text-white text-2xl font-medium">Demo Session</div>
+                    <div className="text-liliac-fields text-lg leading-[26px]">OPSWAT</div>
                     </div>
                 </div>
             </div>
@@ -182,8 +183,9 @@ export const ScheduleCard = () => {
                     <img src={scan} alt="scan icon"></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-2xl font-medium">Workshop Name</div>
-                    <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
+                    <div className="text-white text-2xl font-medium">Demo Session</div>
+                    <div className="text-liliac-fields text-lg leading-[26px]">Ernst & Young
+                    </div>
                     </div>
                 </div>
             </div>
@@ -200,7 +202,7 @@ export const ScheduleCard = () => {
                     <img src={scan} alt="scan icon"></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-2xl font-medium">Workshop Name</div>
+                    <div className="text-white text-2xl font-medium">Demo Session</div>
                     <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
                     </div>
                 </div>
@@ -213,7 +215,7 @@ export const ScheduleCard = () => {
                     <img src={scan} alt="scan icon"></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-2xl font-medium">Workshop Name</div>
+                    <div className="text-white text-2xl font-medium">Demo Session</div>
                     <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
                     </div>
                 </div>
@@ -241,7 +243,7 @@ export const ScheduleCard = () => {
             <div>
                 <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
                     <div className="text-chrome  text-2xl font-medium">10:00</div>
-                    <div className="text-liliac-fields text-2xl font-medium">Coffee & Snacks</div>
+                    <div className="text-liliac-fields text-2xl font-medium">Welcome Coffee</div>
                 </div>
 
                 <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
@@ -251,8 +253,8 @@ export const ScheduleCard = () => {
                         <img src={scan} alt="scan icon"></img>
                         </div>
                         <div className="flex flex-col">
-                        <div className="text-white text-2xl font-medium">Panel Name</div>
-                        <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
+                        <div className="text-white text-2xl font-medium">Keynote Session 1</div>
+                        <div className="text-liliac-fields text-lg leading-[26px]">Gabriel Dinu, Deputy Director, National Cyber Security Directorate (DNSC)</div>
                         </div>
                     </div>
                 </div>
@@ -264,8 +266,8 @@ export const ScheduleCard = () => {
                         <img src={scan} alt="scan icon"></img>
                         </div>
                         <div className="flex flex-col">
-                        <div className="text-white text-2xl font-medium">Panel Name</div>
-                        <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
+                        <div className="text-white text-2xl font-medium">Keynote Session 2</div>
+                        <div className="text-liliac-fields text-lg leading-[26px]">Ionut Isac, Director of CyberSecurity & Emerging Technologies, Ernst & Young</div>
                         </div>
                     </div>
                 </div>
@@ -282,8 +284,8 @@ export const ScheduleCard = () => {
                         <img src={scan} alt="scan icon"></img>
                         </div>
                         <div className="flex flex-col">
-                        <div className="text-white text-2xl font-medium">Panel Name</div>
-                        <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
+                        <div className="text-white text-2xl font-medium">Education Panel: How to Grow your Career in Cybersecurity</div>
+                        {/* <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div> */}
                         </div>
                     </div>
                 </div>
@@ -295,8 +297,8 @@ export const ScheduleCard = () => {
                         <img src={scan} alt="scan icon"></img>
                         </div>
                         <div className="flex flex-col">
-                        <div className="text-white text-2xl font-medium">Panel Name</div>
-                        <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
+                        <div className="text-white text-2xl font-medium">Keynote Session 3</div>
+                        <div className="text-liliac-fields text-lg leading-[26px]">Speaker announcement coming soon</div>
                         </div>
                     </div>
                 </div>
@@ -332,8 +334,8 @@ export const ScheduleCard = () => {
                        <img src={scan} alt="scan icon"></img>
                        </div>
                        <div className="flex flex-col">
-                       <div className="text-white text-2xl font-medium">Workshop Name</div>
-                       <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
+                       <div className="text-white text-2xl font-medium">Demo Session</div>
+                       <div className="text-liliac-fields text-lg leading-[26px]">OPSWAT</div>
                        </div>
                    </div>
                </div>
@@ -345,7 +347,7 @@ export const ScheduleCard = () => {
                        <img src={scan} alt="scan icon"></img>
                        </div>
                        <div className="flex flex-col">
-                       <div className="text-white text-2xl font-medium">Workshop Name</div>
+                       <div className="text-white text-2xl font-medium">Demo Session</div>
                        <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
                        </div>
                    </div>
@@ -363,7 +365,7 @@ export const ScheduleCard = () => {
                        <img src={scan} alt="scan icon"></img>
                        </div>
                        <div className="flex flex-col">
-                       <div className="text-white text-2xl font-medium">Workshop Name</div>
+                       <div className="text-white text-2xl font-medium">Demo Session</div>
                        <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
                        </div>
                    </div>
@@ -376,7 +378,7 @@ export const ScheduleCard = () => {
                        <img src={scan} alt="scan icon"></img>
                        </div>
                        <div className="flex flex-col">
-                       <div className="text-white text-2xl font-medium">Workshop Name</div>
+                       <div className="text-white text-2xl font-medium">Demo Session</div>
                        <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
                        </div>
                    </div>
