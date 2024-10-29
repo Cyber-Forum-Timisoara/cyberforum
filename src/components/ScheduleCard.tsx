@@ -72,163 +72,170 @@ export const ScheduleCard = () => {
             {selectedView === 'presentations' ? (
             <div>
              <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-chrome  text-2xl font-medium">11:00</div>
-                <div className="text-liliac-fields text-2xl font-medium">Registration & Coffee</div>
+                <div className="text-chrome  text-xl font-medium">11:00</div>
+                <div className="text-liliac-fields text-xl font-medium">Registration & Coffee</div>
             </div>
 
             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-2xl font-medium flex items-center">12:00</div>
+                <div className="text-white text-xl font-medium flex items-center">12:00</div>
                 <div className="flex flex-row gap-3 items-center">
-               
+                    <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                        <img src={scan} alt="scan icon" ></img>
+                    </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-2xl font-medium">Opening Plenary</div>
-                    <div className="text-liliac-fields text-lg leading-[26px]">Moderated by Adrian Seceleanu - Editor Business Hi-Tech, Ziarul Financiar</div>
+                    <div className="text-white text-xl font-medium">Opening Plenary</div>
+                    <div className="text-epicurean-orange text-base">Adrian Seceleanu <span className="text-white"> [moderator] </span></div>
+                    <div className="text-liliac-fields text-sm leaning-[16px]">Editor Business Hi-Tech, Ziarul Financiar</div>
                     </div>
                 </div>
             </div>
 
             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-2xl font-medium flex items-center">12:30</div>
+                <div className="text-white text-xl font-medium flex items-center">12:30</div>
                 <div className="flex flex-row gap-3 items-center">
-                    <div className="bg-dark-spell p-3">
-                    <img src={scan} alt="scan icon"></img>
+                    <div className="bg-dark-spell p-3 flex flex-col">
+                    <img src={scan} alt="scan icon" className=""></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-2xl font-medium">	
-                    Keynote Session 1 </div>
-                    <div className="text-liliac-fields text-lg leading-[26px]">Jan Miller, CTO, Threat Intel, OPSWAT </div>
+                    <div className="text-white text-xl font-medium">Keynote Session 1 </div>
+                    <div className="text-epicurean-orange text-base">Jan Miller</div>
+                    <div className="text-liliac-fields text-sm leaning-[16px] ">CTO, Threat Intel, OPSWAT</div>
                     </div>
                 </div>
             </div>
 
             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-2xl font-medium flex items-center">13:15</div>
+                <div className="text-white text-xl font-medium flex items-center">13:15</div>
                 <div className="flex flex-row gap-3 items-center">
-                    <div className="bg-dark-spell p-3">
-                    <img src={scan} alt="scan icon"></img>
+                    <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                    <img src={scan} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-2xl font-medium">Keynote Session 2</div>
-                    <div className="text-liliac-fields text-lg leading-[26px]">Vassilis Manoussos, Expert Witness, Digital Evidence & Cybercrime, Visiting Lecturer @ Sheffield Hallam University, UK</div>
+                    <div className="text-white text-xl font-medium">Keynote Session 2</div>
+                    <div className="text-epicurean-orange text-base">Vassilis Manoussos</div>
+                    <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> Expert Witness, Digital Evidence & Cybercrime, Visiting Lecturer @ Sheffield Hallam University, UK</div>
                     </div>
                 </div>
             </div>
 
             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-chrome  text-2xl font-medium">14:00</div>
-                <div className="text-liliac-fields text-2xl font-medium">Lunch Break</div>
+                <div className="text-chrome  text-xl font-medium">14:00</div>
+                <div className="text-liliac-fields text-xl font-medium">Lunch Break</div>
             </div>
 
             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-2xl font-medium flex items-center">15:00</div>
+                <div className="text-white text-xl font-medium flex items-center">15:00</div>
                 <div className="flex flex-row gap-3 items-center">
-                    <div className="bg-dark-spell p-3">
-                    <img src={scan} alt="scan icon"></img>
+                    <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                        <img src={scan} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-2xl font-medium">Entrepreneurship Panel: How to Grow & Finance Your Cybersecurity Business?</div>
-                    {/* <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div> */}
+                    <div className="text-white text-xl font-medium">Entrepreneurship Panel </div>
+                    <div className="text-epicurean-orange text-base">How to Grow & Finance Your Cybersecurity Business</div>
+                    {/* <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">Speaker Name</div> */}
                     </div>
                 </div>
             </div>
 
             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-2xl font-medium flex items-center">16:00</div>
+                <div className="text-white text-xl font-medium flex items-center">16:00</div>
                 <div className="flex flex-row gap-3 items-center">
-                    <div className="bg-dark-spell p-3">
-                    <img src={scan} alt="scan icon"></img>
+                    <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                        <img src={scan} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-2xl font-medium">Keynote Session 3</div>
-                    <div className="text-liliac-fields text-lg leading-[26px]">Virgil Stănciulescu, Expert, IT Division, Romanian National Authority for Administration and Regulation in Communications (ANCOM)</div>
+                    <div className="text-white text-xl font-medium">Keynote Session 3</div>
+                    <div className="text-epicurean-orange text-base">Virgil Stănciulescu</div>
+                    <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> Expert, IT Division, Romanian National Authority for Administration and Regulation in Communications (ANCOM)</div>
                     </div>
                 </div>
             </div>
 
-            <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-chrome  text-2xl font-medium">17:00</div>
-                <div className="text-liliac-fields text-2xl font-medium">NETWORKING PARTY - ARChA</div>
+            <div className="flex flex-row gap-8 font-medium py-3">
+                <div className="text-chrome  text-xl font-medium">17:00</div>
+                <div className="text-liliac-fields text-xl font-medium">NETWORKING PARTY - ARChA</div>
             </div>
         </div>
 
         ) : (
             <div>
              <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-chrome  text-2xl font-medium">11:00</div>
-                <div className="text-liliac-fields text-2xl font-medium">Coffee & Snacks</div>
+                <div className="text-chrome  text-xl font-medium">11:00</div>
+                <div className="text-liliac-fields text-xl font-medium">Coffee & Snacks</div>
             </div>
 
             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-chrome  text-2xl font-medium">12:00</div>
-                <div className="text-liliac-fields text-2xl font-medium">Workshop</div>
+                <div className="text-chrome  text-xl font-medium">12:00</div>
+                <div className="text-liliac-fields text-xl font-medium">Workshop</div>
             </div>
 
             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-2xl font-medium flex items-center">12:30</div>
+                <div className="text-white text-xl font-medium flex items-center">12:30</div>
                 <div className="flex flex-row gap-3 items-center">
-                    <div className="bg-dark-spell p-3">
-                    <img src={scan} alt="scan icon"></img>
+                    <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                        <img src={scan} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-2xl font-medium">Demo Session</div>
-                    <div className="text-liliac-fields text-lg leading-[26px]">OPSWAT</div>
+                    <div className="text-white text-xl font-medium">Demo Session</div>
+                    <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">OPSWAT</div>
                     </div>
                 </div>
             </div>
 
             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-2xl font-medium flex items-center">13:15</div>
+                <div className="text-white text-xl font-medium flex items-center">13:15</div>
                 <div className="flex flex-row gap-3 items-center">
-                    <div className="bg-dark-spell p-3">
-                    <img src={scan} alt="scan icon"></img>
+                    <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                        <img src={scan} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-2xl font-medium">Demo Session</div>
-                    <div className="text-liliac-fields text-lg leading-[26px]">Ernst & Young
+                    <div className="text-white text-xl font-medium">Demo Session</div>
+                    <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">Ernst & Young
                     </div>
                     </div>
                 </div>
             </div>
 
             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-chrome  text-2xl font-medium">14:00</div>
-                <div className="text-liliac-fields text-2xl font-medium">Lunch Break</div>
+                <div className="text-chrome  text-xl font-medium">14:00</div>
+                <div className="text-liliac-fields text-xl font-medium">Lunch Break</div>
             </div>
 
             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-2xl font-medium flex items-center">15:00</div>
+                <div className="text-white text-xl font-medium flex items-center">15:00</div>
                 <div className="flex flex-row gap-3 items-center">
-                    <div className="bg-dark-spell p-3">
-                    <img src={scan} alt="scan icon"></img>
+                    <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                        <img src={scan} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-2xl font-medium">Demo Session</div>
-                    <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
+                    <div className="text-white text-xl font-medium">Demo Session</div>
+                    <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">Speaker Name</div>
                     </div>
                 </div>
             </div>
 
             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-2xl font-medium flex items-center">16:00</div>
+                <div className="text-white text-xl font-medium flex items-center">16:00</div>
                 <div className="flex flex-row gap-3 items-center">
-                    <div className="bg-dark-spell p-3">
-                    <img src={scan} alt="scan icon"></img>
+                    <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                        <img src={scan} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-2xl font-medium">Demo Session</div>
-                    <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
+                    <div className="text-white text-xl font-medium">Demo Session</div>
+                    <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">Speaker Name</div>
                     </div>
                 </div>
             </div>
 
-            <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-chrome  text-2xl font-medium">17:00</div>
-                <div className="text-liliac-fields text-2xl font-medium">Networking</div>
+            <div className="flex flex-row gap-8 font-medium py-3">
+                <div className="text-chrome  text-xl font-medium">17:00</div>
+                <div className="text-liliac-fields text-xl font-medium">Networking</div>
             </div>
         </div>
         )}
     </div>
         </div>
+
 
 
         
@@ -242,151 +249,153 @@ export const ScheduleCard = () => {
             {selectedViewCard === 'presentations' ? (
             <div>
                 <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                    <div className="text-chrome  text-2xl font-medium">10:00</div>
-                    <div className="text-liliac-fields text-2xl font-medium">Welcome Coffee</div>
+                    <div className="text-chrome  text-xl font-medium">10:00</div>
+                    <div className="text-liliac-fields text-xl font-medium">Welcome Coffee</div>
                 </div>
 
                 <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                    <div className="text-white text-2xl font-medium flex items-center">11:00</div>
+                    <div className="text-white text-xl font-medium flex items-center">11:00</div>
                     <div className="flex flex-row gap-3 items-center">
-                        <div className="bg-dark-spell p-3">
-                        <img src={scan} alt="scan icon"></img>
+                        <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                            <img src={scan} alt="scan icon" ></img>
                         </div>
                         <div className="flex flex-col">
-                        <div className="text-white text-2xl font-medium">Keynote Session 1</div>
-                        <div className="text-liliac-fields text-lg leading-[26px]">Gabriel Dinu, Deputy Director, National Cyber Security Directorate (DNSC)</div>
+                        <div className="text-white text-xl font-medium">Keynote Session 1</div>
+                        <div className="text-epicurean-orange text-base">Gabriel Dinu</div>
+                        <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> Deputy Director, National Cyber Security Directorate (DNSC)</div>
                         </div>
                     </div>
                 </div>
 
                 <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                    <div className="text-white text-2xl font-medium flex items-center">11:45</div>
+                    <div className="text-white text-xl font-medium flex items-center">11:45</div>
                     <div className="flex flex-row gap-3 items-center">
-                        <div className="bg-dark-spell p-3">
-                        <img src={scan} alt="scan icon"></img>
+                        <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                            <img src={scan} alt="scan icon" ></img>
                         </div>
                         <div className="flex flex-col">
-                        <div className="text-white text-2xl font-medium">Keynote Session 2</div>
-                        <div className="text-liliac-fields text-lg leading-[26px]">Ionut Isac, Director of CyberSecurity & Emerging Technologies, Ernst & Young</div>
+                        <div className="text-white text-xl font-medium">Keynote Session 2</div>
+                        <div className="text-epicurean-orange text-base">Ionut Isac</div>
+                        <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> Director of CyberSecurity & Emerging Technologies, Ernst & Young</div>
                         </div>
                     </div>
                 </div>
 
                 <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                    <div className="text-chrome  text-2xl font-medium">12:30</div>
-                    <div className="text-liliac-fields text-2xl font-medium">Lunch Break</div>
+                    <div className="text-chrome  text-xl font-medium">12:30</div>
+                    <div className="text-liliac-fields text-xl font-medium">Lunch Break</div>
                 </div>
 
                 <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                    <div className="text-white text-2xl font-medium flex items-center">13:30</div>
+                    <div className="text-white text-xl font-medium flex items-center">13:30</div>
                     <div className="flex flex-row gap-3 items-center">
-                        <div className="bg-dark-spell p-3">
-                        <img src={scan} alt="scan icon"></img>
+                        <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                            <img src={scan} alt="scan icon" ></img>
                         </div>
                         <div className="flex flex-col">
-                        <div className="text-white text-2xl font-medium">Education Panel: How to Grow your Career in Cybersecurity</div>
-                        {/* <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div> */}
+                        <div className="text-white text-xl font-medium">Education Panel</div>
+                        <div className="text-epicurean-orange text-base">How to Grow your Career in Cybersecurity</div>
+                        {/* <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">Speaker Name</div> */}
                         </div>
                     </div>
                 </div>
 
                 <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                    <div className="text-white text-2xl font-medium flex items-center">14:30</div>
+                    <div className="text-white text-xl font-medium flex items-center">14:30</div>
                     <div className="flex flex-row gap-3 items-center">
-                        <div className="bg-dark-spell p-3">
-                        <img src={scan} alt="scan icon"></img>
+                        <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                            <img src={scan} alt="scan icon" ></img>
                         </div>
                         <div className="flex flex-col">
-                        <div className="text-white text-2xl font-medium">Keynote Session 3</div>
-                        <div className="text-liliac-fields text-lg leading-[26px]">Speaker announcement coming soon</div>
+                        <div className="text-white text-xl font-medium">Keynote Session 3</div>
+                        <div className="text-epicurean-orange text-base">Speaker announcement coming soon</div>
+                        <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"></div>
                         </div>
                     </div>
                 </div>
 
                 <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                    <div className="text-chrome  text-2xl font-medium">15:15</div>
-                    <div className="text-liliac-fields text-2xl font-medium">Closing Remarks</div>
+                    <div className="text-chrome  text-xl font-medium">15:15</div>
+                    <div className="text-liliac-fields text-xl font-medium">Closing Remarks</div>
                 </div>
 
-                <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                    <div className="text-chrome  text-2xl font-medium">15:30</div>
-                    <div className="text-liliac-fields text-2xl font-medium">Networking</div>
+                <div className="flex flex-row gap-8 font-medium py-3">
+                    <div className="text-chrome  text-xl font-medium">15:30</div>
+                    <div className="text-liliac-fields text-xl font-medium">Networking</div>
                 </div>
-
-
             </div>
             ) : (
                 <div>
                 <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                   <div className="text-chrome  text-2xl font-medium">11:00</div>
-                   <div className="text-liliac-fields text-2xl font-medium">Coffee & Snacks</div>
+                   <div className="text-chrome  text-xl font-medium">11:00</div>
+                   <div className="text-liliac-fields text-xl font-medium">Coffee & Snacks</div>
                </div>
    
                <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                   <div className="text-chrome  text-2xl font-medium">12:00</div>
-                   <div className="text-liliac-fields text-2xl font-medium">Workshop</div>
+                   <div className="text-chrome  text-xl font-medium">12:00</div>
+                   <div className="text-liliac-fields text-xl font-medium">Workshop</div>
                </div>
    
                <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                   <div className="text-white text-2xl font-medium flex items-center">12:30</div>
+                   <div className="text-white text-xl font-medium flex items-center">12:30</div>
                    <div className="flex flex-row gap-3 items-center">
-                       <div className="bg-dark-spell p-3">
-                       <img src={scan} alt="scan icon"></img>
-                       </div>
+                        <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                            <img src={scan} alt="scan icon" ></img>
+                        </div>
                        <div className="flex flex-col">
-                       <div className="text-white text-2xl font-medium">Demo Session</div>
-                       <div className="text-liliac-fields text-lg leading-[26px]">OPSWAT</div>
+                       <div className="text-white text-xl font-medium">Demo Session</div>
+                       <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">OPSWAT</div>
                        </div>
                    </div>
                </div>
    
                <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                   <div className="text-white text-2xl font-medium flex items-center">13:15</div>
+                   <div className="text-white text-xl font-medium flex items-center">13:15</div>
                    <div className="flex flex-row gap-3 items-center">
-                       <div className="bg-dark-spell p-3">
-                       <img src={scan} alt="scan icon"></img>
-                       </div>
+                        <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                            <img src={scan} alt="scan icon" ></img>
+                        </div>
                        <div className="flex flex-col">
-                       <div className="text-white text-2xl font-medium">Demo Session</div>
-                       <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
+                       <div className="text-white text-xl font-medium">Demo Session</div>
+                       <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">Speaker Name</div>
                        </div>
                    </div>
                </div>
    
                <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                   <div className="text-chrome  text-2xl font-medium">14:00</div>
-                   <div className="text-liliac-fields text-2xl font-medium">Lunch Break</div>
+                   <div className="text-chrome  text-xl font-medium">14:00</div>
+                   <div className="text-liliac-fields text-xl font-medium">Lunch Break</div>
                </div>
    
                <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                   <div className="text-white text-2xl font-medium flex items-center">15:00</div>
+                   <div className="text-white text-xl font-medium flex items-center">15:00</div>
                    <div className="flex flex-row gap-3 items-center">
-                       <div className="bg-dark-spell p-3">
-                       <img src={scan} alt="scan icon"></img>
-                       </div>
+                        <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                            <img src={scan} alt="scan icon" ></img>
+                        </div>
                        <div className="flex flex-col">
-                       <div className="text-white text-2xl font-medium">Demo Session</div>
-                       <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
+                       <div className="text-white text-xl font-medium">Demo Session</div>
+                       <div className="text-liliac-fields text-lg leading-[16px]">Speaker Name</div>
                        </div>
                    </div>
                </div>
    
                <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                   <div className="text-white text-2xl font-medium flex items-center">16:00</div>
+                   <div className="text-white text-xl font-medium flex items-center">16:00</div>
                    <div className="flex flex-row gap-3 items-center">
-                       <div className="bg-dark-spell p-3">
-                       <img src={scan} alt="scan icon"></img>
-                       </div>
+                        <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                            <img src={scan} alt="scan icon" ></img>
+                        </div>
                        <div className="flex flex-col">
-                       <div className="text-white text-2xl font-medium">Demo Session</div>
-                       <div className="text-liliac-fields text-lg leading-[26px]">Speaker Name</div>
+                       <div className="text-white text-xl font-medium">Demo Session</div>
+                       <div className="text-liliac-fields text-lg leading-[16px]">Speaker Name</div>
                        </div>
                    </div>
                </div>
    
-               <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                   <div className="text-chrome  text-2xl font-medium">17:00</div>
-                   <div className="text-liliac-fields text-2xl font-medium">Networking</div>
+               <div className="flex flex-row gap-8 font-medium py-3">
+                   <div className="text-chrome  text-xl font-medium">17:00</div>
+                   <div className="text-liliac-fields text-xl font-medium">Networking</div>
                </div>
            </div>
             )}
