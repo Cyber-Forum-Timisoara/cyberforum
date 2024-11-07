@@ -1,6 +1,12 @@
 import React, {useState} from "react";
 import { Badge } from "./Badge";
 import scan from '../images/scan.svg';
+import janmiler from '../images/janmiler.png';
+import ionutisac from '../images/ionutisac.png';
+import virgils from '../images/virgils.png';
+import vassilism from '../images/vassilism.png';
+import adrians from '../images/adrians.png';
+import gabrieldinu from '../images/gabrieldinu.png';
 
 export const ScheduleCard = () => {
 
@@ -77,13 +83,13 @@ export const ScheduleCard = () => {
             </div>
 
             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-xl font-medium flex items-center">12:00</div>
+                <div className="text-white text-xl font-medium flex items-center">11:30</div>
                 <div className="flex flex-row gap-3 items-center">
-                    <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
-                        <img src={scan} alt="scan icon" ></img>
+                    <div className="bg-dark-spell flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                        <img src={adrians} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-xl font-medium">Opening Plenary</div>
+                    <div className="text-white text-xl font-medium">Opening Remarks</div>
                     <div className="text-epicurean-orange text-base">Adrian Seceleanu <span className="text-white"> [moderator] </span></div>
                     <div className="text-liliac-fields text-sm leaning-[16px]">Editor Business Hi-Tech, Ziarul Financiar</div>
                     </div>
@@ -91,13 +97,13 @@ export const ScheduleCard = () => {
             </div>
 
             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-xl font-medium flex items-center">12:30</div>
+                <div className="text-white text-xl font-medium flex items-center">12:00</div>
                 <div className="flex flex-row gap-3 items-center">
-                    <div className="bg-dark-spell p-3 flex flex-col">
-                    <img src={scan} alt="scan icon" className=""></img>
+                <div className="bg-dark-spell flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                        <img src={janmiler} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-xl font-medium">Keynote Session 1 </div>
+                    <div className="text-white text-xl font-medium">Evolving Sandboxes for a New Threat Landscape </div>
                     <div className="text-epicurean-orange text-base">Jan Miller</div>
                     <div className="text-liliac-fields text-sm leaning-[16px] ">CTO, Threat Intel, OPSWAT</div>
                     </div>
@@ -105,13 +111,27 @@ export const ScheduleCard = () => {
             </div>
 
             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-xl font-medium flex items-center">13:15</div>
+                <div className="text-white text-xl font-medium flex items-center">12:30</div>
                 <div className="flex flex-row gap-3 items-center">
-                    <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
-                    <img src={scan} alt="scan icon" ></img>
+                    <div className="bg-dark-spell flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                    <img src={gabrieldinu} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-xl font-medium">Keynote Session 2</div>
+                    <div className="text-white text-xl font-medium">Keynote Session</div>
+                    <div className="text-epicurean-orange text-base">Gabriel Dinu</div>
+                    <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> Deputy Director, National Cyber Security Directorate (DNSC)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
+                <div className="text-white text-xl font-medium flex items-center">13:15</div>
+                <div className="flex flex-row gap-3 items-center">
+                    <div className="bg-dark-spell flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                    <img src={vassilism} alt="scan icon" ></img>
+                    </div>
+                    <div className="flex flex-col">
+                    <div className="text-white text-xl font-medium">Keynote Session</div>
                     <div className="text-epicurean-orange text-base">Vassilis Manoussos</div>
                     <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> Expert Witness, Digital Evidence & Cybercrime, Visiting Lecturer @ Sheffield Hallam University, UK</div>
                     </div>
@@ -144,9 +164,9 @@ export const ScheduleCard = () => {
                         <img src={scan} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-xl font-medium">Keynote Session 3</div>
-                    <div className="text-epicurean-orange text-base">Virgil Stănciulescu</div>
-                    <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> Expert, IT Division, Romanian National Authority for Administration and Regulation in Communications (ANCOM)</div>
+                    <div className="text-white text-xl font-medium">To paper or to pixel - this is the (cyber resilience) question!</div>
+                    <div className="text-epicurean-orange text-base">Valentin Muresan</div>
+                    <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> Timisoara Mayor's Personal advisor on Digitalization and Smart City</div>
                     </div>
                 </div>
             </div>
@@ -256,13 +276,13 @@ export const ScheduleCard = () => {
                 <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
                     <div className="text-white text-xl font-medium flex items-center">11:00</div>
                     <div className="flex flex-row gap-3 items-center">
-                        <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
-                            <img src={scan} alt="scan icon" ></img>
+                        <div className="bg-dark-spell flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                            <img src={virgils} alt="scan icon" ></img>
                         </div>
                         <div className="flex flex-col">
-                        <div className="text-white text-xl font-medium">Keynote Session 1</div>
-                        <div className="text-epicurean-orange text-base">Gabriel Dinu</div>
-                        <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> Deputy Director, National Cyber Security Directorate (DNSC)</div>
+                        <div className="text-white text-xl font-medium">Top 10 Cybersec Challenges in 2024</div>
+                        <div className="text-epicurean-orange text-base">Virgil Stănciulescu</div>
+                        <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> Expert, IT Division, Romanian National Authority for Administration and Regulation in Communications (ANCOM)</div>
                         </div>
                     </div>
                 </div>
@@ -270,11 +290,11 @@ export const ScheduleCard = () => {
                 <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
                     <div className="text-white text-xl font-medium flex items-center">11:45</div>
                     <div className="flex flex-row gap-3 items-center">
-                        <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
-                            <img src={scan} alt="scan icon" ></img>
+                        <div className="bg-dark-spell flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                            <img src={ionutisac} alt="scan icon" ></img>
                         </div>
                         <div className="flex flex-col">
-                        <div className="text-white text-xl font-medium">Keynote Session 2</div>
+                        <div className="text-white text-xl font-medium">Keynote Sessios</div>
                         <div className="text-epicurean-orange text-base">Ionut Isac</div>
                         <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> Director of CyberSecurity & Emerging Technologies, Ernst & Young</div>
                         </div>
@@ -289,33 +309,26 @@ export const ScheduleCard = () => {
                 <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
                     <div className="text-white text-xl font-medium flex items-center">13:30</div>
                     <div className="flex flex-row gap-3 items-center">
-                        <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
-                            <img src={scan} alt="scan icon" ></img>
-                        </div>
                         <div className="flex flex-col">
                         <div className="text-white text-xl font-medium">Education Panel</div>
                         <div className="text-epicurean-orange text-base">How to Grow your Career in Cybersecurity</div>
-                        {/* <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">Speaker Name</div> */}
+                        <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> 
+                            Claudiu Brândaș <span className="text-white"> [Professor of Business Information Systems Development, West University of Timisoara] </span>  
+                            <br></br> Radu Ticiu <span className="text-white"> [Co-Founder, CoderDojo Timisoara] </span>  
+                            <br></br> Bogdan Groza  <span className="text-white"> [Professor of Information Security, Politehnica University of Timisoara] </span>  
+                            <br></br> Cristina Iordaiche <span className="text-white"> [Computer Science Teacher, Grigore Moisil Highschool, Timisoara ] </span>  
+                            <br></br> Anca Dragomir  <span className="text-white"> [Manager of IT & Communications Department, Hidroelectrica] </span>  
+                            <br></br> Valentin Mureșan <span className="text-white"> [Timisoara Mayor's Personal Advisor on Digitalization & Smart City] </span> 
+                            <br></br> Cristian Driga <span className="text-white"> [enior Cybersecurity Manager, Romanian National Cybersecurity Directorate (DNSC)] </span> 
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                    <div className="text-white text-xl font-medium flex items-center">14:30</div>
-                    <div className="flex flex-row gap-3 items-center">
-                        <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
-                            <img src={scan} alt="scan icon" ></img>
-                        </div>
-                        <div className="flex flex-col">
-                        <div className="text-white text-xl font-medium">Keynote Session 3</div>
-                        <div className="text-epicurean-orange text-base">Speaker announcement coming soon</div>
-                        <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"></div>
-                        </div>
-                    </div>
-                </div>
+              
 
                 <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                    <div className="text-chrome  text-xl font-medium">15:15</div>
+                    <div className="text-chrome  text-xl font-medium">15:00</div>
                     <div className="text-liliac-fields text-xl font-medium">Closing Remarks</div>
                 </div>
 
