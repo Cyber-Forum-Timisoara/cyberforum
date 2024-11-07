@@ -1,12 +1,13 @@
 import React, {useState} from "react";
 import { Badge } from "./Badge";
-import scan from '../images/scan.svg';
+import scan from '../images/panel-group.svg';
 import janmiler from '../images/janmiler.png';
 import ionutisac from '../images/ionutisac.png';
 import virgils from '../images/virgils.png';
 import vassilism from '../images/vassilism.png';
 import adrians from '../images/adrians.png';
 import gabrieldinu from '../images/gabrieldinu.png';
+import valentinmuresan from '../images/valentinmuresan.png'
 
 export const ScheduleCard = () => {
 
@@ -67,7 +68,7 @@ export const ScheduleCard = () => {
     )
 
     return <div className="flex flex-col w-full gap-5 font-simplon-mono  ml:flex-row">
-        <div className="flex flex-col w-full bg-heise-black p-[30px] gap-8">
+        <div className="flex flex-col w-full bg-heise-black p-[30px] gap-4">
             <div className="w-auto">
                 <Badge label='Conference Day 1' variant='malicious'/>
             </div>
@@ -77,119 +78,119 @@ export const ScheduleCard = () => {
             <div>
             {selectedView === 'presentations' ? (
             <div>
-             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-chrome  text-xl font-medium">11:00</div>
-                <div className="text-liliac-fields text-xl font-medium">Registration & Coffee</div>
+             <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
+                <div className="text-chrome  text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">11:00</div>
+                <div className="text-liliac-fields text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Registration & Coffee</div>
             </div>
 
-            <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-xl font-medium flex items-center">11:30</div>
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
+                <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">11:30</div>
                 <div className="flex flex-row gap-3 items-center">
                     <div className="bg-dark-spell flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
                         <img src={adrians} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-xl font-medium">Opening Remarks</div>
+                    <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Opening Remarks</div>
                     <div className="text-epicurean-orange text-base">Adrian Seceleanu <span className="text-white"> [moderator] </span></div>
                     <div className="text-liliac-fields text-sm leaning-[16px]">Editor Business Hi-Tech, Ziarul Financiar</div>
                     </div>
                 </div>
             </div>
 
-            <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-xl font-medium flex items-center">12:00</div>
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
+                <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">12:00</div>
                 <div className="flex flex-row gap-3 items-center">
                 <div className="bg-dark-spell flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
                         <img src={janmiler} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-xl font-medium">Evolving Sandboxes for a New Threat Landscape </div>
+                    <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Evolving Sandboxes for a New Threat Landscape </div>
                     <div className="text-epicurean-orange text-base">Jan Miller</div>
                     <div className="text-liliac-fields text-sm leaning-[16px] ">CTO, Threat Intel, OPSWAT</div>
                     </div>
                 </div>
             </div>
 
-            <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-xl font-medium flex items-center">12:30</div>
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
+                <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">12:30</div>
                 <div className="flex flex-row gap-3 items-center">
                     <div className="bg-dark-spell flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
                     <img src={gabrieldinu} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-xl font-medium">Keynote Session</div>
+                    <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Keynote Session</div>
                     <div className="text-epicurean-orange text-base">Gabriel Dinu</div>
                     <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> Deputy Director, National Cyber Security Directorate (DNSC)</div>
                     </div>
                 </div>
             </div>
 
-            <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-xl font-medium flex items-center">13:15</div>
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
+                <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">13:15</div>
                 <div className="flex flex-row gap-3 items-center">
                     <div className="bg-dark-spell flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
                     <img src={vassilism} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-xl font-medium">Keynote Session</div>
+                    <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Keynote Session</div>
                     <div className="text-epicurean-orange text-base">Vassilis Manoussos</div>
                     <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> Expert Witness, Digital Evidence & Cybercrime, Visiting Lecturer @ Sheffield Hallam University, UK</div>
                     </div>
                 </div>
             </div>
 
-            <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-chrome  text-xl font-medium">14:00</div>
-                <div className="text-liliac-fields text-xl font-medium">Lunch Break</div>
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
+                <div className="text-chrome  text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">14:00</div>
+                <div className="text-liliac-fields text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Lunch Break</div>
             </div>
 
-            <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-xl font-medium flex items-center">15:00</div>
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
+                <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">15:00</div>
                 <div className="flex flex-row gap-3 items-center">
                     <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
                         <img src={scan} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-xl font-medium">Entrepreneurship Panel </div>
+                    <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Entrepreneurship Panel </div>
                     <div className="text-epicurean-orange text-base">How to Grow & Finance Your Cybersecurity Business</div>
                     {/* <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">Speaker Name</div> */}
                     </div>
                 </div>
             </div>
 
-            <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-xl font-medium flex items-center">16:00</div>
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
+                <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">16:00</div>
                 <div className="flex flex-row gap-3 items-center">
-                    <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
-                        <img src={scan} alt="scan icon" ></img>
+                    <div className="bg-dark-spell flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                        <img src={valentinmuresan} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-xl font-medium">To paper or to pixel - this is the (cyber resilience) question!</div>
+                    <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">To paper or to pixel - this is the (cyber resilience) question!</div>
                     <div className="text-epicurean-orange text-base">Valentin Muresan</div>
                     <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> Timisoara Mayor's Personal advisor on Digitalization and Smart City</div>
                     </div>
                 </div>
             </div>
 
-            <div className="flex flex-row gap-8 font-medium py-3">
-                <div className="text-chrome  text-xl font-medium">17:00</div>
-                <div className="text-liliac-fields text-xl font-medium">NETWORKING PARTY - ARChA</div>
+            <div className="flex flex-row gap-4 font-medium py-3">
+                <div className="text-chrome  text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">17:00</div>
+                <div className="text-liliac-fields text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">NETWORKING PARTY - ARChA</div>
             </div>
         </div>
 
         ) : (
             <div>
-             <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
+             <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
                 <div className="text-chrome  text-xl font-medium">11:00</div>
                 <div className="text-liliac-fields text-xl font-medium">Coffee & Snacks</div>
             </div>
 
-            <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
                 <div className="text-chrome  text-xl font-medium">12:00</div>
                 <div className="text-liliac-fields text-xl font-medium">Workshop</div>
             </div>
 
-            <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
                 <div className="text-white text-xl font-medium flex items-center">12:30</div>
                 <div className="flex flex-row gap-3 items-center">
                     <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
@@ -202,7 +203,7 @@ export const ScheduleCard = () => {
                 </div>
             </div>
 
-            <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
                 <div className="text-white text-xl font-medium flex items-center">13:15</div>
                 <div className="flex flex-row gap-3 items-center">
                     <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
@@ -216,12 +217,12 @@ export const ScheduleCard = () => {
                 </div>
             </div>
 
-            <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
                 <div className="text-chrome  text-xl font-medium">14:00</div>
                 <div className="text-liliac-fields text-xl font-medium">Lunch Break</div>
             </div>
 
-            <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
                 <div className="text-white text-xl font-medium flex items-center">15:00</div>
                 <div className="flex flex-row gap-3 items-center">
                     <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
@@ -234,7 +235,7 @@ export const ScheduleCard = () => {
                 </div>
             </div>
 
-            <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
                 <div className="text-white text-xl font-medium flex items-center">16:00</div>
                 <div className="flex flex-row gap-3 items-center">
                     <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
@@ -247,7 +248,7 @@ export const ScheduleCard = () => {
                 </div>
             </div>
 
-            <div className="flex flex-row gap-8 font-medium py-3">
+            <div className="flex flex-row gap-4 font-medium py-3">
                 <div className="text-chrome  text-xl font-medium">17:00</div>
                 <div className="text-liliac-fields text-xl font-medium">Networking</div>
             </div>
@@ -268,49 +269,49 @@ export const ScheduleCard = () => {
         
             {selectedViewCard === 'presentations' ? (
             <div>
-                <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                    <div className="text-chrome  text-xl font-medium">10:00</div>
-                    <div className="text-liliac-fields text-xl font-medium">Welcome Coffee</div>
+                <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
+                    <div className="text-chrome text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">10:00</div>
+                    <div className="text-liliac-fields text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Welcome Coffee</div>
                 </div>
 
-                <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                    <div className="text-white text-xl font-medium flex items-center">11:00</div>
+                <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
+                    <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">11:00</div>
                     <div className="flex flex-row gap-3 items-center">
                         <div className="bg-dark-spell flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
                             <img src={virgils} alt="scan icon" ></img>
                         </div>
                         <div className="flex flex-col">
-                        <div className="text-white text-xl font-medium">Top 10 Cybersec Challenges in 2024</div>
+                        <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Top 10 Cybersec Challenges in 2024</div>
                         <div className="text-epicurean-orange text-base">Virgil Stănciulescu</div>
                         <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> Expert, IT Division, Romanian National Authority for Administration and Regulation in Communications (ANCOM)</div>
                         </div>
                     </div>
                 </div>
 
-                <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                    <div className="text-white text-xl font-medium flex items-center">11:45</div>
+                <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
+                    <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">11:45</div>
                     <div className="flex flex-row gap-3 items-center">
                         <div className="bg-dark-spell flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
                             <img src={ionutisac} alt="scan icon" ></img>
                         </div>
                         <div className="flex flex-col">
-                        <div className="text-white text-xl font-medium">Keynote Sessios</div>
+                        <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Keynote Sessios</div>
                         <div className="text-epicurean-orange text-base">Ionut Isac</div>
                         <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> Director of CyberSecurity & Emerging Technologies, Ernst & Young</div>
                         </div>
                     </div>
                 </div>
 
-                <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                    <div className="text-chrome  text-xl font-medium">12:30</div>
-                    <div className="text-liliac-fields text-xl font-medium">Lunch Break</div>
+                <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
+                    <div className="text-chrome  text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">12:30</div>
+                    <div className="text-liliac-fields text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Lunch Break</div>
                 </div>
 
-                <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                    <div className="text-white text-xl font-medium flex items-center">13:30</div>
+                <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
+                    <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">13:30</div>
                     <div className="flex flex-row gap-3 items-center">
                         <div className="flex flex-col">
-                        <div className="text-white text-xl font-medium">Education Panel</div>
+                        <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Education Panel</div>
                         <div className="text-epicurean-orange text-base">How to Grow your Career in Cybersecurity</div>
                         <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> 
                             Claudiu Brândaș <span className="text-white"> [Professor of Business Information Systems Development, West University of Timisoara] </span>  
@@ -327,29 +328,29 @@ export const ScheduleCard = () => {
 
               
 
-                <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
-                    <div className="text-chrome  text-xl font-medium">15:00</div>
-                    <div className="text-liliac-fields text-xl font-medium">Closing Remarks</div>
+                <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
+                    <div className="text-chrome  text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">15:00</div>
+                    <div className="text-liliac-fields text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Closing Remarks</div>
                 </div>
 
-                <div className="flex flex-row gap-8 font-medium py-3">
-                    <div className="text-chrome  text-xl font-medium">15:30</div>
-                    <div className="text-liliac-fields text-xl font-medium">Networking</div>
+                <div className="flex flex-row gap-4 font-medium py-3">
+                    <div className="text-chrome  text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">15:30</div>
+                    <div className="text-liliac-fields text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Networking</div>
                 </div>
             </div>
             ) : (
                 <div>
-                <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
+                <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
                    <div className="text-chrome  text-xl font-medium">11:00</div>
                    <div className="text-liliac-fields text-xl font-medium">Coffee & Snacks</div>
                </div>
    
-               <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
+               <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
                    <div className="text-chrome  text-xl font-medium">12:00</div>
                    <div className="text-liliac-fields text-xl font-medium">Workshop</div>
                </div>
    
-               <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
+               <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
                    <div className="text-white text-xl font-medium flex items-center">12:30</div>
                    <div className="flex flex-row gap-3 items-center">
                         <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
@@ -362,7 +363,7 @@ export const ScheduleCard = () => {
                    </div>
                </div>
    
-               <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
+               <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
                    <div className="text-white text-xl font-medium flex items-center">13:15</div>
                    <div className="flex flex-row gap-3 items-center">
                         <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
@@ -375,12 +376,12 @@ export const ScheduleCard = () => {
                    </div>
                </div>
    
-               <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
+               <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
                    <div className="text-chrome  text-xl font-medium">14:00</div>
                    <div className="text-liliac-fields text-xl font-medium">Lunch Break</div>
                </div>
    
-               <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
+               <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
                    <div className="text-white text-xl font-medium flex items-center">15:00</div>
                    <div className="flex flex-row gap-3 items-center">
                         <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
@@ -393,7 +394,7 @@ export const ScheduleCard = () => {
                    </div>
                </div>
    
-               <div className="flex flex-row gap-8 border-b-[1px] border-dark-spell font-medium py-3">
+               <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
                    <div className="text-white text-xl font-medium flex items-center">16:00</div>
                    <div className="flex flex-row gap-3 items-center">
                         <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
@@ -406,7 +407,7 @@ export const ScheduleCard = () => {
                    </div>
                </div>
    
-               <div className="flex flex-row gap-8 font-medium py-3">
+               <div className="flex flex-row gap-4 font-medium py-3">
                    <div className="text-chrome  text-xl font-medium">17:00</div>
                    <div className="text-liliac-fields text-xl font-medium">Networking</div>
                </div>
