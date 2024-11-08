@@ -5,7 +5,7 @@ import map from '../images/map.svg';
 
 export const LocationCard = () => {
   return (
-    <div className="flex flex-wrap w-full justify-center px-[30px] py-[60px] bg-greyspage-1200 bg-heise-black border border-solid border-baclavas">
+    <div className="flex flex-wrap w-full justify-center px-[30px] py-[60px] xl:px-[30px] xs:px-[10px] bg-greyspage-1200 bg-heise-black border border-solid border-baclavas">
       <div className="flex flex-col ml:flex-row gap-y-[60px] gap-x-[60px] items-center justify-center">
         <div className="flex flex-col items-start justify-center gap-[30px]">
           <p className="font-inter text-chrome font-normal text-lg leading-[26px] max-w-[400px]">

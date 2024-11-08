@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { Badge } from "./Badge";
 import scan from '../images/panel-group.svg';
-import janmiler from '../images/janmiler.png';
+import janmiler from '../images/janmiler.webp';
 import ionutisac from '../images/ionutisac.png';
 import virgils from '../images/virgils.png';
 import vassilism from '../images/vassilism.png';
@@ -68,7 +68,7 @@ export const ScheduleCard = () => {
     )
 
     return <div className="flex flex-col w-full gap-5 font-simplon-mono  ml:flex-row">
-        <div className="flex flex-col w-full bg-heise-black p-[30px] gap-4">
+        <div className="flex flex-col w-full bg-heise-black p-[30px] xl:p-[30px] xs:px-[10px] gap-4">
             <div className="w-auto">
                 <Badge label='Conference Day 1' variant='malicious'/>
             </div>
@@ -260,7 +260,7 @@ export const ScheduleCard = () => {
 
 
         
-        <div className="flex flex-col w-full bg-heise-black p-[30px] gap-8">
+        <div className="flex flex-col w-full bg-heise-black p-[30px] xl:p-[30px] xs:px-[10px] gap-8">
         <div className="w-auto">
                 <Badge label='Conference Day 2' variant='malicious'/>
             </div>       
@@ -320,7 +320,7 @@ export const ScheduleCard = () => {
                             <br></br> Cristina Iordaiche <span className="text-white"> [Computer Science Teacher, Grigore Moisil Highschool, Timisoara ] </span>  
                             <br></br> Anca Dragomir  <span className="text-white"> [Manager of IT & Communications Department, Hidroelectrica] </span>  
                             <br></br> Valentin Mureșan <span className="text-white"> [Timisoara Mayor's Personal Advisor on Digitalization & Smart City] </span> 
-                            <br></br> Cristian Driga <span className="text-white"> [enior Cybersecurity Manager, Romanian National Cybersecurity Directorate (DNSC)] </span> 
+                            <br></br> Cristian Driga <span className="text-white"> [Senior Cybersecurity Manager, Romanian National Cybersecurity Directorate (DNSC)] </span> 
                             </div>
                         </div>
                     </div>

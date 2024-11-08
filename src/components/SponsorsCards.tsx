@@ -35,7 +35,7 @@ export const SponsorsCard = () => {
   return (
     <div className="flex flex-row lg:flex-row sm:flex-col xs:flex-col w-full gap-5 ">
     {sponsorsData.map((sponsor) => (
-      <div key={sponsor.id} className="flex flex-col items-center gap-y-3 p-[30px] w-full bg-heise-black border border-solid border-baclavas">
+      <div key={sponsor.id} className="flex flex-col items-center gap-y-3 p-[30px] xl:p-[30px] xs:px-[10px] w-full bg-heise-black border border-solid border-baclavas">
         <div className="self-start">
           <Badge variant="clean" label={sponsor.status}/>
         </div>

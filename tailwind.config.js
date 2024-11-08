@@ -53,7 +53,7 @@ module.exports = {
         'simplon-mono': ['"Simplon Mono"', 'monospace'],
       },
       screens: {
-        'xs': '350px',
+        'xs': '290px',
         'sx': '420px',
         'sm': '800px',
         'ml': '1050px',

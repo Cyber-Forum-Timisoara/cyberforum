@@ -23,7 +23,7 @@ const statsData = [
   
   export const StatisticsCard = () => {
     return (
-      <div className="flex flex-wrap w-full p-[30px] bg-heise-black border border-solid border-baclavas">
+      <div className="flex flex-wrap w-full p-[30px] xl:p-[30px] xs:px-[10px] bg-heise-black border border-solid border-baclavas">
         <div className="flex flex-col gap-5 w-full">
           <div className="w-auto">
             <Badge label="Sensitive Data Found" variant="low" />
@@ -34,7 +34,7 @@ const statsData = [
             {statsData.map((stat) => (
               <div key={stat.id} className="flex bg-dark-spell gap-3 py-2 px-3 items-center">
                 <img src={stat.img} alt={stat.text} />
-                <span className="font-simplon-mono font-medium text-white text-2xl leading-7 whitespace-nowrap mt-1 lg:text-2xl xs:text-xl">{stat.text}</span>
+                <span className="font-simplon-mono font-medium text-white text-2xl leading-7 whitespace-nowrap mt-1 lg:text-2xl xs:text-sm">{stat.text}</span>
               </div>
             ))}
           </div>

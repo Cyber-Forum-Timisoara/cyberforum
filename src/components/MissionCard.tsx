@@ -5,7 +5,7 @@ import { Badge } from "./Badge";
 export const MissionCard = () => {
     return (
       <div className="flex flex-col lg:flex-row w-full bg-heise-black border border-solid border-baclavas">
-        <div className="relative flex-1 p-[30px] flex-col pr-10">
+        <div className="relative flex-1 p-[30px] flex-col pr-10 xl:p-[30px] xs:px-[10px]">
           <div className="absolute right-0 top-[10%] bottom-[10%] w-[1px] border-r-1 border-baclavas bg-baclavas"></div>
   
           <div className="w-auto">
@@ -22,7 +22,7 @@ export const MissionCard = () => {
           </p>
         </div>
   
-        <div className="relative flex-1 p-[30px] flex-col pr-10">
+        <div className="relative flex-1 p-[30px] xl:p-[30px] xs:px-[10px] flex-col pr-10">
           <div className="absolute right-0 top-[10%] bottom-[10%] w-[1px] border-r-1 border-baclavas bg-baclavas"></div>
   
           <div className="w-auto">
@@ -39,7 +39,7 @@ export const MissionCard = () => {
           </p>
         </div>
   
-        <div className="relative flex-1 p-[30px] flex-col pr-10s">
+        <div className="relative flex-1 p-[30px] xl:p-[30px] xs:px-[10px] flex-col pr-10s">
           <div className="w-auto">
             <Badge variant="clean" label="No Threat Detected" />
           </div>
