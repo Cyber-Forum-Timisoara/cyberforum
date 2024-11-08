@@ -67,7 +67,7 @@ const Homepage = () => {
         <a href="#schedule" className="flex text-sm md:text-base hover:text-laughing-orange">Schedule</a>
         <a href="#sponsors" className="flex text-sm md:text-base hover:text-laughing-orange">Sponsors</a>
         <a href="#location" className="flex text-sm md:text-base hover:text-laughing-orange">Location</a>
-        <a href="#tickets" className="flex text-sm md:text-base hover:text-laughing-orange">Tickets</a>
+        <a href="https://oveit.com/hub/event/cyber-forum-timisoara-r3Oawy7w" target="_blank" rel="noopener noreferrer" className="flex text-sm md:text-base hover:text-laughing-orange">Tickets</a>
       </div>
     </div>
   },[stickyHeader]);

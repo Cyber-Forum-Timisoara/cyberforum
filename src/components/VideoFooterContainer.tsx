@@ -41,7 +41,7 @@ export const VideoFooterContainer = () => {
                         Timisoara, Romania
                     </div>
                     <a
-                        href="https://oveit.com/hub/event/cyber-forum-timisoara-r3Oawy7w?theme=dark" target="_blank" rel="noopener noreferrer"
+                        href="https://oveit.com/hub/event/cyber-forum-timisoara-r3Oawy7w?" target="_blank" rel="noopener noreferrer"
                         className="bg-gradient-orange whitespace-nowrap text-lg font-medium text-heise-black px-[60px] py-[20px] lg:px-[50px] lg:py-[18px] md:px-[40px] md:py-[16px] sm:px-[30px] sm:py-[14px] xs:px-[20px] xs:py-[7px] transition ease-in-out delay-1500 hover:-translate-y-1 hover:scale-110 rounded-custom"
                     >
                        Buy your ticket now
