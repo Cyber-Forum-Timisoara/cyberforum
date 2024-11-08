@@ -28,7 +28,7 @@ export const ScheduleCard = () => {
                 className={`grow shrink basis-0 px-6 py-2 flex-col justify-start items-center  inline-flex ${selectedView === 'presentations' ? 'bg-gradient-orange text-heise-black' : 'text-chrome hover:text-white'}`}
                 onClick={() => handleToggle('presentations')}
             >
-                <div className="text-center text-lg lg:text-lg sm:text-sm xs:text-sm font-normal font-simplon-mono leading-relaxed ">
+                <div className="text-center text-lg lg:text-lg sm:text-sm xs:text-xs font-normal font-simplon-mono leading-relaxed ">
                     Presentations
                 </div>
             </button>
@@ -37,7 +37,7 @@ export const ScheduleCard = () => {
                 className={`grow shrink basis-0 px-6 py-2 flex-col justify-start items-center inline-flex ${selectedView === 'workshops' ? 'bg-gradient-orange text-heise-black' : 'text-chrome hover:text-white'}`}
                 onClick={() => handleToggle('workshops')}
             >
-                <div className="text-center text-lg lg:text-lg sm:text-sm xs:text-sm font-normal font-simplon-mono leading-relaxed">
+                <div className="text-center text-lg lg:text-lg sm:text-sm xs:text-xs font-normal font-simplon-mono leading-relaxed">
                     Workshops
                 </div>
             </button>
@@ -51,7 +51,7 @@ export const ScheduleCard = () => {
                 className={`grow shrink basis-0 px-6 py-2 flex-col justify-start items-center inline-flex ${selectedViewCard === 'presentations' ? 'bg-gradient-orange text-heise-black' : 'text-chrome hover:text-white'}`}
                 onClick={() => handleToggleCard2('presentations')}
             >
-                <div className="text-center text-lg lg:text-lg sm:text-sm xs:text-sm font-normal font-simplon-mono leading-relaxed">
+                <div className="text-center text-lg lg:text-lg sm:text-sm xs:text-xs font-normal font-simplon-mono leading-relaxed">
                     Presentations
                 </div>
             </button>
@@ -60,7 +60,7 @@ export const ScheduleCard = () => {
                 className={`grow shrink basis-0 px-6 py-2  flex-col justify-start items-center inline-flex ${selectedViewCard === 'workshops' ? 'bg-gradient-orange text-heise-black' : 'text-chrome hover:text-white'}`}
                 onClick={() => handleToggleCard2('workshops')}
             >
-                <div className="text-center text-lg lg:text-lg sm:text-sm xs:text-sm font-normal font-simplon-mono leading-relaxed">
+                <div className="text-center text-lg lg:text-lg sm:text-sm xs:text-xs font-normal font-simplon-mono leading-relaxed">
                     Workshops
                 </div>
             </button>
@@ -68,7 +68,7 @@ export const ScheduleCard = () => {
     )
 
     return <div className="flex flex-col w-full gap-5 font-simplon-mono  ml:flex-row">
-        <div className="flex flex-col w-full bg-heise-black p-[30px] xl:p-[30px] xs:px-[10px] gap-4">
+        <div className="flex flex-col w-full bg-heise-black p-[30px] xl:p-[30px] xs:px-[10px] gap-8">
             <div className="w-auto">
                 <Badge label='Conference Day 1' variant='malicious'/>
             </div>
