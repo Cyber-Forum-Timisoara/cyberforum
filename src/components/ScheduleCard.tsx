@@ -118,7 +118,7 @@ export const ScheduleCard = () => {
                     <img src={gabrieldinu} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Keynote Session</div>
+                    <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Securing Essential Services: A Guide to NIS 2 Directive Transposition in Romanian Legislation</div>
                     <div className="text-epicurean-orange text-base">Gabriel Dinu</div>
                     <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> Deputy Director, National Cyber Security Directorate (DNSC)</div>
                     </div>
