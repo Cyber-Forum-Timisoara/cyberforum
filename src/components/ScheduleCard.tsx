@@ -73,10 +73,8 @@ export const ScheduleCard = () => {
                 <Badge label='Conference Day 1' variant='malicious'/>
             </div>
             <h2 className="font-medium text-[40px] leading-[40px] text-liliac-fields font-simplon-mono">Thursday, November 14th</h2>
-            {toggleButton}
             
             <div>
-            {selectedView === 'presentations' ? (
             <div>
              <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
                 <div className="text-chrome  text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">11:00</div>
@@ -178,96 +176,14 @@ export const ScheduleCard = () => {
             </div>
         </div>
 
-        ) : (
-            <div>
-             <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-chrome  text-xl font-medium">11:00</div>
-                <div className="text-liliac-fields text-xl font-medium">Coffee & Snacks</div>
-            </div>
-
-            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-chrome  text-xl font-medium">12:00</div>
-                <div className="text-liliac-fields text-xl font-medium">Workshop</div>
-            </div>
-
-            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-xl font-medium flex items-center">12:30</div>
-                <div className="flex flex-row gap-3 items-center">
-                    <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
-                        <img src={scan} alt="scan icon" ></img>
-                    </div>
-                    <div className="flex flex-col">
-                    <div className="text-white text-xl font-medium">Demo Session</div>
-                    <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">OPSWAT</div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-xl font-medium flex items-center">13:15</div>
-                <div className="flex flex-row gap-3 items-center">
-                    <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
-                        <img src={scan} alt="scan icon" ></img>
-                    </div>
-                    <div className="flex flex-col">
-                    <div className="text-white text-xl font-medium">Demo Session</div>
-                    <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">Ernst & Young
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-chrome  text-xl font-medium">14:00</div>
-                <div className="text-liliac-fields text-xl font-medium">Lunch Break</div>
-            </div>
-
-            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-xl font-medium flex items-center">15:00</div>
-                <div className="flex flex-row gap-3 items-center">
-                    <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
-                        <img src={scan} alt="scan icon" ></img>
-                    </div>
-                    <div className="flex flex-col">
-                    <div className="text-white text-xl font-medium">Demo Session</div>
-                    <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">Speaker Name</div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
-                <div className="text-white text-xl font-medium flex items-center">16:00</div>
-                <div className="flex flex-row gap-3 items-center">
-                    <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
-                        <img src={scan} alt="scan icon" ></img>
-                    </div>
-                    <div className="flex flex-col">
-                    <div className="text-white text-xl font-medium">Demo Session</div>
-                    <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">Speaker Name</div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="flex flex-row gap-4 font-medium py-3">
-                <div className="text-chrome  text-xl font-medium">17:00</div>
-                <div className="text-liliac-fields text-xl font-medium">Networking</div>
-            </div>
-        </div>
-        )}
+        
     </div>
         </div>
-
-
-
-        
         <div className="flex flex-col w-full bg-heise-black p-[30px] xl:p-[30px] xs:px-[10px] gap-8">
         <div className="w-auto">
                 <Badge label='Conference Day 2' variant='malicious'/>
             </div>       
             <h2 className="font-medium text-[40px] leading-[40px] text-liliac-fields font-simplon-mono">Friday, November 15th</h2>
-            {toggleButton2}
-        
-            {selectedViewCard === 'presentations' ? (
             <div>
                 <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
                     <div className="text-chrome text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">10:00</div>
@@ -326,8 +242,6 @@ export const ScheduleCard = () => {
                     </div>
                 </div>
 
-              
-
                 <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
                     <div className="text-chrome  text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">15:00</div>
                     <div className="text-liliac-fields text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Closing Remarks</div>
@@ -338,81 +252,6 @@ export const ScheduleCard = () => {
                     <div className="text-liliac-fields text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Networking</div>
                 </div>
             </div>
-            ) : (
-                <div>
-                <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
-                   <div className="text-chrome  text-xl font-medium">11:00</div>
-                   <div className="text-liliac-fields text-xl font-medium">Coffee & Snacks</div>
-               </div>
-   
-               <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
-                   <div className="text-chrome  text-xl font-medium">12:00</div>
-                   <div className="text-liliac-fields text-xl font-medium">Workshop</div>
-               </div>
-   
-               <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
-                   <div className="text-white text-xl font-medium flex items-center">12:30</div>
-                   <div className="flex flex-row gap-3 items-center">
-                        <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
-                            <img src={scan} alt="scan icon" ></img>
-                        </div>
-                       <div className="flex flex-col">
-                       <div className="text-white text-xl font-medium">Demo Session</div>
-                       <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">OPSWAT</div>
-                       </div>
-                   </div>
-               </div>
-   
-               <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
-                   <div className="text-white text-xl font-medium flex items-center">13:15</div>
-                   <div className="flex flex-row gap-3 items-center">
-                        <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
-                            <img src={scan} alt="scan icon" ></img>
-                        </div>
-                       <div className="flex flex-col">
-                       <div className="text-white text-xl font-medium">Demo Session</div>
-                       <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">Speaker Name</div>
-                       </div>
-                   </div>
-               </div>
-   
-               <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
-                   <div className="text-chrome  text-xl font-medium">14:00</div>
-                   <div className="text-liliac-fields text-xl font-medium">Lunch Break</div>
-               </div>
-   
-               <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
-                   <div className="text-white text-xl font-medium flex items-center">15:00</div>
-                   <div className="flex flex-row gap-3 items-center">
-                        <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
-                            <img src={scan} alt="scan icon" ></img>
-                        </div>
-                       <div className="flex flex-col">
-                       <div className="text-white text-xl font-medium">Demo Session</div>
-                       <div className="text-liliac-fields text-lg leading-[16px]">Speaker Name</div>
-                       </div>
-                   </div>
-               </div>
-   
-               <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
-                   <div className="text-white text-xl font-medium flex items-center">16:00</div>
-                   <div className="flex flex-row gap-3 items-center">
-                        <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
-                            <img src={scan} alt="scan icon" ></img>
-                        </div>
-                       <div className="flex flex-col">
-                       <div className="text-white text-xl font-medium">Demo Session</div>
-                       <div className="text-liliac-fields text-lg leading-[16px]">Speaker Name</div>
-                       </div>
-                   </div>
-               </div>
-   
-               <div className="flex flex-row gap-4 font-medium py-3">
-                   <div className="text-chrome  text-xl font-medium">17:00</div>
-                   <div className="text-liliac-fields text-xl font-medium">Networking</div>
-               </div>
-           </div>
-            )}
 
         </div>
     </div>
