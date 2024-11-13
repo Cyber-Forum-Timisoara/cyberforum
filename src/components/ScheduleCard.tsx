@@ -98,8 +98,8 @@ export const ScheduleCard = () => {
             <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
                 <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">12:00</div>
                 <div className="flex flex-row gap-3 items-center">
-                <div className="bg-dark-spell flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
-                        <img src={janmiler} alt="scan icon" ></img>
+                     <div className="bg-dark-spell flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                        <img src={adrians} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
                     <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Evolving Sandboxes for a New Threat Landscape </div>
@@ -130,7 +130,7 @@ export const ScheduleCard = () => {
                     <img src={vassilism} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
-                    <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Keynote Session</div>
+                    <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">After Cybercrime... What happens to Cybercriminals?</div>
                     <div className="text-epicurean-orange text-base">Vassilis Manoussos</div>
                     <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> Expert Witness, Digital Evidence & Cybercrime, Visiting Lecturer @ Sheffield Hallam University, UK</div>
                     </div>
@@ -207,13 +207,13 @@ export const ScheduleCard = () => {
                 <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
                     <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">11:45</div>
                     <div className="flex flex-row gap-3 items-center">
-                        <div className="bg-dark-spell flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
-                            <img src={ionutisac} alt="scan icon" ></img>
+                        <div className="bg-dark-spell p-3 flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
+                            <img src={scan} alt="scan icon" ></img>
                         </div>
                         <div className="flex flex-col">
-                        <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Keynote Sessios</div>
-                        <div className="text-epicurean-orange text-base">Ionut Isac</div>
-                        <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]"> Director of CyberSecurity & Emerging Technologies, Ernst & Young</div>
+                        <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">A Journey into Data Protection & Privacy</div>
+                        <div className="text-epicurean-orange text-base">Stephane ROBILLIARD</div>
+                        <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">Cloud Security Architect, E&Y</div>
                         </div>
                     </div>
                 </div>
