@@ -99,7 +99,7 @@ export const ScheduleCard = () => {
                 <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">12:00</div>
                 <div className="flex flex-row gap-3 items-center">
                      <div className="bg-dark-spell flex flex-row items-center h-[64px] w-[64px] min-w-[64px]">
-                        <img src={adrians} alt="scan icon" ></img>
+                        <img src={janmiler} alt="scan icon" ></img>
                     </div>
                     <div className="flex flex-col">
                     <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">Evolving Sandboxes for a New Threat Landscape </div>
