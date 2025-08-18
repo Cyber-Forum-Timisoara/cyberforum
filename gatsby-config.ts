@@ -3,8 +3,11 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   siteMetadata: {
     author: 'CyberForumTimisoara',
-    title: `CyberForumTimisoara`,
-    siteUrl: `htttps://cyberforum.ro`,
+    title: 'CyberForumTimisoara',
+    siteUrl: 'https://cyberforum.ro/',
+    description: 'CyberForumTimisoara',
+    image: 'src/images/favicon.png',
+    instagramUsername: 'cyberforum.tm',
 
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.

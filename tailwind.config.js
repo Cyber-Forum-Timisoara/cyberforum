@@ -46,7 +46,7 @@ module.exports = {
         'gradient-deep-red': 'linear-gradient(251deg, #D72724 13.64%, #B50300 77.59%)',
         'gradient-red-epiphyllum': 'linear-gradient(270deg, #DE4B49 0%, #D72724 96.49%)',
         'custom-gradient': 'linear-gradient(hsla(0, 0%, 100%, 0.25), hsla(0, 0%, 100%, 0.25))',
-
+        'gradient-disabled': 'linear-gradient(45deg, #1B273C 0%, #313C4E 48.96%, #313C4E 100%)',
       },
       fontFamily: {
         'inter': ['Inter'],

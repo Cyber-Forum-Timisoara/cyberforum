@@ -19,38 +19,68 @@ import founding from '../images/header-founding.svg';
 import together from '../images/together.svg'; 
 
 const Homepage = () => {
-
-  const [stickyHeader, setStickyHeader] = useState('sticky');
+  const [stickyHeader, setStickyHeader] = useState("sticky");
   const [prevScroll, setPrevScroll] = useState(0);
 
   useEffect(() => {
-      const handleScroll = () => {
-          const currentScroll = window.scrollY;
+    const handleScroll = () => {
+      const currentScroll = window.scrollY;
 
-          if (currentScroll === 0) {
-              setStickyHeader('sticky');
-          } else if (prevScroll > currentScroll) {
-              setStickyHeader('fixed w-full translate-y-0');
-          } else {
-              setStickyHeader('fixed w-full -translate-y-full');
-          }
+      if (currentScroll === 0) {
+        setStickyHeader("sticky");
+      } else if (prevScroll > currentScroll) {
+        setStickyHeader("fixed w-full translate-y-0");
+      } else {
+        setStickyHeader("fixed w-full -translate-y-full");
+      }
 
-          setPrevScroll(currentScroll);
-      };
+      setPrevScroll(currentScroll);
+    };
 
-      window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-      return () => {
-          window.removeEventListener('scroll', handleScroll);
-      };
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, [prevScroll]);
 
+  // Add smooth scroll with offset for header
+  useEffect(() => {
+    const handleAnchorClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      if (
+        target.tagName === "A" &&
+        target.getAttribute("href")?.startsWith("#")
+      ) {
+        e.preventDefault();
+        const id = target.getAttribute("href")?.substring(1);
+        const element = document.getElementById(id || "");
+        if (element) {
+          const headerHeight = 130; // Approximate header height
+          const elementPosition = element.offsetTop - headerHeight; // 20px extra padding
+          window.scrollTo({
+            top: elementPosition,
+            behavior: "smooth",
+          });
+        }
+      }
+    };
+
+    document.addEventListener("click", handleAnchorClick);
+    return () => document.removeEventListener("click", handleAnchorClick);
+  }, []);
+
   const header = useMemo(() => {
+    return (
+      <div
+        className={`${stickyHeader} transition-transform duration-300 ease-in-out top-0 z-50 flex flex-wrap w-full items-center justify-between  text-white gap-y-2 gap-x-2 p-5 px-[120px] 2xl:px-[120px] xl:px-[40px] xs:px-[20px] md:py-10 border-b bg-tristesse border-heise-black`}
+      >
+        <a href="\">
+          {" "}
+          <img className="h-8 md:h-10" alt="Group" src={logo} />
+        </a>
 
-    return <div className={`${stickyHeader} transition-transform duration-300 ease-in-out top-0 z-50 flex flex-wrap w-full items-center justify-between  text-white gap-y-2 gap-x-2 p-5 px-[120px] 2xl:px-[120px] xl:px-[40px] xs:px-[20px] md:py-10 border-b bg-tristesse border-heise-black`}>
-     <a href="\"> <img className="h-8 md:h-10" alt="Group" src={logo} /></a> 
-
-      {/* <div className="flex items-center gap-2.5 mt-3 md:mt-0">
+        {/* <div className="flex items-center gap-2.5 mt-3 md:mt-0">
         <div className="relative font-simplon-mono w-fit text-sm md:text-2xl font-medium text-blackwhitewhite text-center tracking-[0] leading-[normal]">
           Trust No File.
         </div>
@@ -62,57 +92,92 @@ const Homepage = () => {
         </a>
       </div> */}
 
-      <div className="hidden font-simplon-mono md:flex items-center justify-end gap-4 md:gap-8 mt-3 md:mt-0 scroll-smooth">
-        <a href="#agenda" className="flex text-sm md:text-base hover:text-laughing-orange">Agenda</a>
-        <a href="#schedule" className="flex text-sm md:text-base hover:text-laughing-orange">Schedule</a>
-        <a href="#sponsors" className="flex text-sm md:text-base hover:text-laughing-orange">Sponsors</a>
-        <a href="#location" className="flex text-sm md:text-base hover:text-laughing-orange">Location</a>
-        <a href="https://oveit.com/hub/event/cyber-forum-timisoara-r3Oawy7w" target="_blank" rel="noopener noreferrer" className="flex text-sm md:text-base hover:text-laughing-orange">Tickets</a>
+        <div className="hidden font-simplon-mono md:flex items-center justify-end gap-4 md:gap-8 mt-3 md:mt-0">
+          <a
+            href="#about"
+            className="flex text-sm md:text-base hover:text-laughing-orange"
+          >
+            About
+          </a>
+          <a
+            href="#highlights"
+            className="flex text-sm md:text-base hover:text-laughing-orange"
+          >
+            Highlights
+          </a>
+          <a
+            href="#schedule"
+            className="flex text-sm md:text-base hover:text-laughing-orange"
+          >
+            Agenda
+          </a>
+          <a
+            href="#sponsors"
+            className="flex text-sm md:text-base hover:text-laughing-orange"
+          >
+            Partners
+          </a>
+          <a
+            href="#location"
+            className="flex text-sm md:text-base hover:text-laughing-orange"
+          >
+            Venue
+          </a>
+          <a
+            href="#tickets"
+            className="flex text-sm md:text-base hover:text-laughing-orange"
+          >
+            Editions
+          </a>
+          <a
+            href="#tickets"
+            className="flex text-sm md:text-base hover:text-laughing-orange"
+          >
+            Tickets
+          </a>
+        </div>
       </div>
-    </div>
-  },[stickyHeader]);
+    );
+  }, [stickyHeader]);
 
   return (
     <div className="flex w-full h-full flex-col font-roboto bg-tristesse scroll-smooth">
       {header}
-      <VideoContainer/>
-      <div className="flex flex-wrap gap-y-5 mx-[120px] 2xl:mx-[120px] xl:mx-[40px] xs:mx-[20px]">
-        <HeaderBanner text='What brings us together?' icon={together}/>
-        <MissionCard/>
-        
-       
-        <div id="agenda" className="w-full flex flex-col gap-y-5">
-          <HeaderBanner text='What to look forward to?' icon={look}/>
-          <StatisticsCard/>
+      <VideoContainer />
+      <div
+        id="about"
+        className="flex flex-wrap gap-y-5 mx-[120px] 2xl:mx-[120px] xl:mx-[40px] xs:mx-[20px]"
+      >
+        <HeaderBanner text="What brings us together?" icon={together} />
+        <MissionCard />
+
+        <div id="highlights" className="w-full flex flex-col gap-y-5">
+          <HeaderBanner text="What to look forward to?" icon={look} />
+          <StatisticsCard />
         </div>
 
-       
-        <div id="schedule"  className="w-full flex flex-col gap-y-5">
-          <HeaderBanner text='Schedule' icon={schedule}/>
-          <ScheduleCard/>
+        <div id="schedule" className="w-full flex flex-col gap-y-5">
+          <HeaderBanner text="Schedule" icon={schedule} />
+          <ScheduleCard />
         </div>
 
-
-        <div id="sponsors"  className="w-full flex flex-col gap-y-5">
-          <HeaderBanner text='Founding Members' icon={founding}/>
-          <SponsorsCard/>
+        <div id="sponsors" className="w-full flex flex-col gap-y-5">
+          <HeaderBanner text="Founding Sponsors" icon={founding} />
+          <SponsorsCard />
         </div>
 
-        
         <div id="location" className="w-full flex flex-col gap-y-5">
-          <HeaderBanner text='Where it all happens' icon={location}/>
-          <LocationCard/>
+          <HeaderBanner text="Where it all happens" icon={location} />
+          <LocationCard />
         </div>
 
-        {/* <HeaderBanner text='Sponsors' icon={sponsor}/>
-        <LogoCard/> */}
-
+        <HeaderBanner text="Sponsors" icon={sponsor} />
+        <LogoCard />
       </div>
 
       <div>
-        <VideoFooterContainer/>
-        <Footer/>
-
+        <VideoFooterContainer />
+        <Footer />
       </div>
     </div>
   );
