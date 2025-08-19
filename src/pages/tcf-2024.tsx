@@ -517,8 +517,8 @@ const TCF2024Archive = () => {
           <LocationCard isOld />
         </div>
 
-        <HeaderBanner text="Sponsors" icon={sponsor} />
-        <LogoCard />
+        {/* <HeaderBanner text="Sponsors" icon={sponsor} />
+        <LogoCard /> */}
       </div>
 
       <div>
