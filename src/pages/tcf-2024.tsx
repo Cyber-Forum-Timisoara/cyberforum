@@ -514,7 +514,7 @@ const TCF2024Archive = () => {
 
         <div id="location" className="w-full flex flex-col gap-y-5">
           <HeaderBanner text="Where it all happens" icon={location} />
-          <LocationCard />
+          <LocationCard isOld />
         </div>
 
         <HeaderBanner text="Sponsors" icon={sponsor} />

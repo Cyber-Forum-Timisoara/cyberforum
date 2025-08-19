@@ -166,12 +166,16 @@ const Homepage = () => {
         </div>
 
         <div id="sponsors" className="w-full flex flex-col gap-y-5">
-          <HeaderBanner text="Founding Sponsors" icon={founding} />
+          <HeaderBanner
+            extra="Founding Members"
+            text="Partners"
+            icon={founding}
+          />
           <SponsorsCard />
         </div>
 
         <div id="location" className="w-full flex flex-col gap-y-5">
-          <HeaderBanner text="Where it all happens" icon={location} />
+          <HeaderBanner text="Where it all happens?" icon={location} />
           <LocationCard />
         </div>
 

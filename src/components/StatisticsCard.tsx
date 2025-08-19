@@ -10,16 +10,13 @@ import network from '../images/network.svg';
 import days from '../images/calendar.svg';
 
 const statsData = [
-    { id: 1, img: participant, text: "300+ participants" },
-    { id: 2, img: days, text: "2 Days" },
-    { id: 3, img: tracks, text: "2 Experience Tracks" },
-    { id: 4, img: network, text: "Networking Event" },
-    { id: 5, img: expo, text: "Expo Area" },
-    { id: 6, img: nis, text: "NIS 2 Deep Dive" },
-    { id: 7, img: workshops, text: "Workshops" },
-    { id: 8, img: panels, text: "Panels" },
-    
-  ];
+  { id: 1, img: participant, text: "150+ participants" },
+  { id: 2, img: days, text: "1 Day" },
+  { id: 3, img: tracks, text: "15+ speakers" },
+  { id: 4, img: network, text: "Networking Event" },
+  { id: 5, img: expo, text: "2 panels" },
+  { id: 6, img: nis, text: "NIS 2 Updates" },
+];
   
   export const StatisticsCard = () => {
     return (
@@ -28,13 +25,20 @@ const statsData = [
           <div className="w-auto">
             <Badge label="Sensitive Data Found" variant="low" />
           </div>
-          <p className="text-lg leading-[26px] text-liliac-fields font-inter">309 items detected</p>
-  
-          <div className="grid grid-cols-1 ml:grid-cols-2 lg:grid-cols-3 3xl:grid-cols-4 gap-4">
+          <p className="text-lg leading-[26px] text-liliac-fields font-inter">
+            309 items detected
+          </p>
+
+          <div className="grid grid-cols-1 ml:grid-cols-2 lg:grid-cols-3 3xl:grid-cols-3 gap-4">
             {statsData.map((stat) => (
-              <div key={stat.id} className="flex bg-dark-spell gap-3 py-2 px-3 items-center">
+              <div
+                key={stat.id}
+                className="flex bg-dark-spell gap-3 py-2 px-3 items-center"
+              >
                 <img src={stat.img} alt={stat.text} />
-                <span className="font-simplon-mono font-medium text-white text-2xl leading-7 whitespace-nowrap mt-1 lg:text-2xl xs:text-sm">{stat.text}</span>
+                <span className="font-simplon-mono font-medium text-white text-2xl leading-7 whitespace-nowrap mt-1 lg:text-2xl xs:text-sm">
+                  {stat.text}
+                </span>
               </div>
             ))}
           </div>
