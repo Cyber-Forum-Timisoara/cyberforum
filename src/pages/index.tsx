@@ -1,22 +1,21 @@
 import React, {useState, useEffect, useMemo} from "react";
 import { HeaderBanner } from "../components/HeaderBanner";
-import { Header } from '../components/Header';
-import { SponsorsCard } from '../components/SponsorsCards';
-import { LocationCard } from '../components/LocationCard';
-import { LogoCard } from '../components/LogoCard';
-import { MissionCard } from '../components/MissionCard';
+import { SponsorsCard } from "../components/SponsorsCards";
+import { LocationCard } from "../components/LocationCard";
+import { LogoCard } from "../components/LogoCard";
+import { MissionCard } from "../components/MissionCard";
 import { StatisticsCard } from "../components/StatisticsCard";
-import { ScheduleCard } from '../components/ScheduleCard';
+import { ScheduleCard } from "../components/ScheduleCard";
 import { Footer } from "../components/Footer";
-import { VideoContainer } from '../components/VideoContainer';
+import { VideoContainer } from "../components/VideoContainer";
 import { VideoFooterContainer } from "../components/VideoFooterContainer";
-import logo from '../images/newlogo.svg';
-import sponsor from '../images/header-sponsor.svg'; 
-import look from '../images/header-look.svg'; 
-import location from '../images/header-location.svg'; 
-import schedule from '../images/header-schedule.svg'; 
-import founding from '../images/header-founding.svg'; 
-import together from '../images/together.svg'; 
+import logo from "../images/newlogo.svg";
+import sponsor from "../images/header-sponsor.svg";
+import look from "../images/header-look.svg";
+import location from "../images/header-location.svg";
+import schedule from "../images/header-schedule.svg";
+import founding from "../images/header-founding.svg";
+import together from "../images/together.svg";
 
 const Homepage = () => {
   const [stickyHeader, setStickyHeader] = useState("sticky");
@@ -124,7 +123,7 @@ const Homepage = () => {
             Venue
           </a>
           <a
-            href="#tickets"
+            href="/tcf-2024"
             className="flex text-sm md:text-base hover:text-laughing-orange"
           >
             Editions
@@ -143,7 +142,12 @@ const Homepage = () => {
   return (
     <div className="flex w-full h-full flex-col font-roboto bg-tristesse scroll-smooth">
       {header}
-      <VideoContainer />
+      <VideoContainer
+        date="October 2nd 2025"
+        year="2025"
+        location="Iulius Congress Hall"
+        registration="Registration opens soon"
+      />
       <div
         id="about"
         className="flex flex-wrap gap-y-5 mx-[120px] 2xl:mx-[120px] xl:mx-[40px] xs:mx-[20px]"
@@ -176,11 +180,15 @@ const Homepage = () => {
       </div>
 
       <div>
-        <VideoFooterContainer />
+        <VideoFooterContainer
+          date="October 2nd 2025"
+          location="Iulius Congress Hall"
+          registration="Registration opens soon"
+        />
         <Footer />
       </div>
     </div>
   );
-}
+};
 
 export default Homepage;
