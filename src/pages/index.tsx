@@ -161,7 +161,7 @@ const Homepage = () => {
         </div>
 
         <div id="schedule" className="w-full flex flex-col gap-y-5">
-          <HeaderBanner text="Schedule" icon={schedule} />
+          <HeaderBanner text="Agenda" icon={schedule} />
           <ScheduleCard />
         </div>
 

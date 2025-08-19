@@ -22,3 +22,34 @@
 html {
     scroll-behavior: smooth;
 }
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fade-in 0.8s ease-out forwards;
+}
+
+@keyframes scan-pulse {
+
+    0%,
+    100% {
+        transform: scale(1) rotate(1deg);
+    }
+
+    50% {
+        transform: scale(1.2) rotate(1deg);
+    }
+}
+
+.animate-scan-pulse {
+    animation: scan-pulse 3s ease-in-out infinite;
+}
