@@ -31,7 +31,7 @@ export const VideoFooterContainer = ({
           <img src={scanCity} alt="Centered SVG" className="" />
           <div className="flex flex-col justify-center py-10 items-center z-20">
             <p className="text-white text-[40px] font-medium leading-10 lg:text-[30px] lg:leading-[30px] md:text-[24px] md:leading-[28px] xs:text-[20px] xs:leading-[26px] text-center">
-              The Rise of Cyer Culture:
+              The Rise of Cyber Culture:
               <br />
               People, Education & Tech
             </p>

@@ -40,7 +40,7 @@ export const VideoContainer = ({
             Cyber Forum {year}
           </h1>
           <p className="text-white text-[40px] font-medium leading-10 mt-4 lg:text-[40px] lg:leading-[40px] md:text-[24px] md:leading-[28px] xs:text-[20px] xs:leading-[26px]">
-            The Rise of Cyer Culture:
+            The Rise of Cyber Culture:
             <br></br>
             People, Education & Tech
           </p>
