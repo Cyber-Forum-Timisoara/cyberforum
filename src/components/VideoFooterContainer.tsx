@@ -23,27 +23,25 @@ export const VideoFooterContainer = () => {
             <img src={scanCity} alt="Centered SVG" className="" />
             <div className="flex flex-col justify-center py-10 items-center z-20">
               <p className="text-white text-[40px] font-medium leading-10 lg:text-[30px] lg:leading-[30px] md:text-[24px] md:leading-[28px] xs:text-[20px] xs:leading-[26px] text-center">
-                Fostering cybersecurity
+                The Rise of Cyer Culture:
                 <br />
-                innovation and leadership
-                <br />
-                in our region
+                People, Education & Tech
               </p>
             </div>
           </div>
 
           <div className="relative flex flex-col justify-center items-center text-white pb-[200px] text-2xl leading-6 z-20 lg:text-xl lg:leading-6 md:text-lg xs:text-base">
-            <div>November 15th-16th</div>
+            <div>October 2nd 2025</div>
             <div className="text-center pb-[30px]">
-              Biblioteca Centrală a Universității Politehnica
+              Iulius Congress Hall
               <br />
-              Timisoara, Romania
+              Timișoara, România
             </div>
             <a
               href="\"
-              className="bg-gradient-disabled whitespace-nowrap text-lg font-medium text-heise-black px-[60px] py-[20px] lg:px-[50px] lg:py-[18px] md:px-[40px] md:py-[16px] sm:px-[30px] sm:py-[14px] transition ease-in-out delay-1500 hover:-translate-y-1 hover:scale-110 rounded-custom"
+              className="bg-gradient-disabled cursor-not-allowed whitespace-nowrap text-lg font-medium text-white px-[60px] py-[20px] lg:px-[50px] lg:py-[18px] md:px-[40px] md:py-[16px] sm:px-[30px] sm:py-[14px] transition ease-in-out delay-1500 hover:-translate-y-1 hover:scale-110 rounded-customv"
             >
-              Register now
+              Registration opens soon
             </a>
           </div>
         </div>
