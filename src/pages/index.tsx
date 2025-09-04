@@ -146,7 +146,7 @@ const Homepage = () => {
         date="October 2nd 2025"
         year="2025"
         location="Iulius Congress Hall"
-        registration="Registration opens soon"
+        registration="Buy your ticket now"
       />
       <div
         id="about"

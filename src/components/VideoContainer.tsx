@@ -55,8 +55,10 @@ export const VideoContainer = ({
           </div>
           {registration && (
             <a
-              href="#"
-              className="bg-gradient-disabled cursor-not-allowed  whitespace-nowrap text-lg font-medium text-white px-[60px] py-[20px] lg:px-[50px] lg:py-[18px] md:px-[40px] md:py-[16px] sm:px-[30px] sm:py-[14px] transition ease-in-out delay-1500 hover:-translate-y-1 hover:scale-110 rounded-custom"
+              href="https://oveit.com/hub/event/timisoara-cyber-forum-2025-d3M1Dl3K "
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-orange  whitespace-nowrap text-lg font-medium text-white px-[60px] py-[20px] lg:px-[50px] lg:py-[18px] md:px-[40px] md:py-[16px] sm:px-[30px] sm:py-[14px] transition ease-in-out delay-1500 hover:-translate-y-1 hover:scale-110 rounded-custom"
             >
               {registration}
             </a>
