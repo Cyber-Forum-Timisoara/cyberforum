@@ -137,7 +137,7 @@ export const ScheduleCard = () => {
                     To be announced
                   </div>
                   <div className="text-epicurean-orange text-base">
-                    Speaker to be announced {" "}
+                    Speaker to be announced{" "}
                   </div>
                   {/* <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">
                     {" "}
@@ -294,8 +294,8 @@ export const ScheduleCard = () => {
           The 2024 Aftermovie
         </h2> */}
 
-        <div className="flex items-center">
-          <div className="relative w-full max-w-4xl aspect-video rounded-lg overflow-hidden shadow-2xl">
+        <div className="flex items-center justify-center">
+          <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-2xl">
             <iframe
               src="https://www.youtube.com/embed/lbzCoPbNhNE"
               title="Timisoara Cyber Forum - Previous Event"
