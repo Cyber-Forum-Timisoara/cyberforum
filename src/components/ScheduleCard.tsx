@@ -1,110 +1,312 @@
 import React, {useState} from "react";
 import { Badge } from "./Badge";
 import scan from '../images/panel-group.svg';
-import janmiler from '../images/janmiler.webp';
-import ionutisac from '../images/ionutisac.png';
-import virgils from '../images/virgils.png';
-import vassilism from '../images/vassilism.png';
-import adrians from '../images/adrians.png';
-import gabrieldinu from '../images/gabrieldinu.png';
-import valentinmuresan from '../images/valentinmuresan.png'
+import janmiler from "../images/janm.png";
+import jennyradcliffe from "../images/jenny.png";
+import adi from "../images/adi.png";
+import tudor from "../images/tudor.png";
+import adrians from "../images/adriansec.png";
+import panelGroup from "../images/panel-group.svg";
+import placeHolder from "../images/placeholder.png";
 
 export const ScheduleCard = () => {
+  return (
+    <div className="flex flex-col w-full gap-5 font-simplon-mono  ml:flex-row">
+      <div className="flex flex-col w-full bg-heise-black p-[30px] xl:p-[30px] xs:px-[10px] gap-8">
+        <h2 className="font-medium text-[40px] leading-[40px] text-liliac-fields font-simplon-mono">
+          Thursday, October 2nd
+        </h2>
 
-    const [selectedView, setSelectedView] = useState('presentations');
-    const [selectedViewCard, setSelectedViewCard] = useState('presentations');
-
-    const handleToggle = (view: string) => {
-      setSelectedView(view);
-    };
-
-    const handleToggleCard2 = (view: string) => {
-      setSelectedViewCard(view);
-    };
-
-    const toggleButton = (
-      <div className="h-[58px] pt-1.5 px-1.5 bg-heise-black border gap-2 border-tired-true-blue flex justify-start items-start ">
-        <button
-          className={`grow shrink basis-0 px-6 py-2 flex-col justify-start items-center  inline-flex ${
-            selectedView === "presentations"
-              ? "bg-gradient-orange text-heise-black"
-              : "text-chrome hover:text-white"
-          }`}
-          onClick={() => handleToggle("presentations")}
-        >
-          <div className="text-center text-lg lg:text-lg sm:text-sm xs:text-xs font-normal font-simplon-mono leading-relaxed ">
-            Presentations
-          </div>
-        </button>
-
-        <button
-          className={`grow shrink basis-0 px-6 py-2 flex-col justify-start items-center inline-flex ${
-            selectedView === "workshops"
-              ? "bg-gradient-orange text-heise-black"
-              : "text-chrome hover:text-white"
-          }`}
-          onClick={() => handleToggle("workshops")}
-        >
-          <div className="text-center text-lg lg:text-lg sm:text-sm xs:text-xs font-normal font-simplon-mono leading-relaxed">
-            Workshops
-          </div>
-        </button>
-      </div>
-    );
-
-    const toggleButton2 = (
-      <div className="h-[58px] pt-1.5 px-1.5 bg-heise-black border gap-2 border-tired-true-blue flex justify-start items-start">
-        <button
-          className={`grow shrink basis-0 px-6 py-2 flex-col justify-start items-center inline-flex ${
-            selectedViewCard === "presentations"
-              ? "bg-gradient-orange text-heise-black"
-              : "text-chrome hover:text-white"
-          }`}
-          onClick={() => handleToggleCard2("presentations")}
-        >
-          <div className="text-center text-lg lg:text-lg sm:text-sm xs:text-xs font-normal font-simplon-mono leading-relaxed">
-            Presentations
-          </div>
-        </button>
-
-        <button
-          className={`grow shrink basis-0 px-6 py-2  flex-col justify-start items-center inline-flex ${
-            selectedViewCard === "workshops"
-              ? "bg-gradient-orange text-heise-black"
-              : "text-chrome hover:text-white"
-          }`}
-          onClick={() => handleToggleCard2("workshops")}
-        >
-          <div className="text-center text-lg lg:text-lg sm:text-sm xs:text-xs font-normal font-simplon-mono leading-relaxed">
-            Workshops
-          </div>
-        </button>
-      </div>
-    );
-
-    return (
-      <div className="flex flex-col w-full gap-5 font-simplon-mono">
-        <div className="flex flex-col w-full bg-heise-black p-[30px] xl:p-[30px] xs:px-[10px] gap-8">
-          <h2 className="font-medium text-[40px] leading-[40px] text-liliac-fields font-simplon-mono">
-            Thursday, October 2nd
-          </h2>
-
-          <div className="flex flex-col items-center justify-center py-20">
-            <div className="mb-8 transform hover:scale-110 transition-all duration-500 ease-in-out">
-              <img
-                src={scan}
-                alt="Scan icon"
-                className="w-24 h-24 md:w-32 md:h-32 opacity-80 hover:opacity-100 transition-opacity duration-200 animate-scan-pulse"
-              />
+        <div>
+          <div>
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
+              <div className="text-chrome  text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                08:30
+              </div>
+              <div className="text-liliac-fields text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                Welcome guests, Coffee & Networking
+              </div>
             </div>
-            <div className="text-white text-4xl font-medium text-center mb-4 animate-fade-in">
-              Coming Soon
+
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium ">
+              <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
+                09:30
+              </div>
+              <div className="flex flex-row gap-3 items-center">
+                <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[64px]">
+                  <img src={adrians} alt="Adrian Seceleanu" />
+                </div>
+                <div className="flex flex-col">
+                  <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                    Opening Remarks
+                  </div>
+                  <div className="text-epicurean-orange text-base">
+                    Adrian Seceleanu{" "}
+                    <span className="text-white"> [moderator] </span>
+                  </div>
+                  <div className="text-liliac-fields text-sm leaning-[16px]">
+                    Editor Business Hi-Tech @ Ziarul Financiar
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="text-liliac-fields text-xl text-center max-w-md">
-              We're working on an exciting agenda. Stay tuned for updates!
+
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
+              <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
+                09:45
+              </div>
+              <div className="flex flex-row gap-3 items-center">
+                <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[130px]">
+                  <img src={janmiler} alt="Jan Miller" />
+                </div>
+                <div className="flex flex-col">
+                  <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                    Threat Landscape Insights & Zero-Day Detection{" "}
+                  </div>
+                  <div className="text-epicurean-orange text-base">
+                    Jan Miller
+                  </div>
+                  <div className="text-liliac-fields text-sm leaning-[16px] ">
+                    CTO, Threat Analysis @ OPSWAT
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
+              <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
+                10:45{" "}
+              </div>
+              <div className="flex flex-row gap-3 items-center">
+                <div className=" p-3 flex flex-row items-center h-[130px] w-[130px] min-w-[130px]">
+                  <img src={adi} alt="Adrian Smales" />
+                </div>
+                <div className="flex flex-col">
+                  <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                    Hacking the Human Heart: Pacemaker Forensics{" "}
+                  </div>
+                  <div className="text-epicurean-orange text-base">
+                    Dr. Adrian Smales
+                  </div>
+                  <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">
+                    {" "}
+                    Data Instructor, Researcher{" "}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
+              <div className="text-chrome  text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                11:15
+              </div>
+              <div className="text-liliac-fields text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                Coffee Break
+              </div>
+            </div>
+
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
+              <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
+                11:45
+              </div>
+              <div className="flex flex-row gap-3 items-center">
+                <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[130px]">
+                  <img src={placeHolder} alt="panel icon" />
+                </div>
+                <div className="flex flex-col">
+                  <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                    Threat Landscape in Romania
+                  </div>
+                  <div className="text-epicurean-orange text-base">
+                    Alex Bertea @ ProVision • Jan Miller @ OPSWAT
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
+              <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
+                12:45
+              </div>
+              <div className="flex flex-row gap-3 items-center">
+                <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[130px]">
+                  <img src={placeHolder} alt="panel icon" />
+                </div>
+                <div className="flex flex-col">
+                  <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                    To be announced
+                  </div>
+                  <div className="text-epicurean-orange text-base">
+                    Speaker to be announced {" "}
+                  </div>
+                  {/* <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">
+                    {" "}
+                    TO BE ANNOUNCED
+                  </div> */}
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
+              <div className="text-chrome  text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                13:15
+              </div>
+              <div className="text-liliac-fields text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                Lunch Break
+              </div>
+            </div>
+
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
+              <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
+                14:00
+              </div>
+              <div className="flex flex-row gap-3 items-center">
+                <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[130px]">
+                  <img src={placeHolder} alt="panel icon" />
+                </div>
+                <div className="flex flex-col">
+                  <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                    Panel about education paths in cybersecurity{" "}
+                  </div>
+                  <div className="text-epicurean-orange text-base">
+                    Andreea Jebelean @ OPSWAT • Matei Macsinga @ OPSWAT
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
+              <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
+                15:00
+              </div>
+              <div className="flex flex-row gap-3 items-center">
+                <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[64px]">
+                  <img src={tudor} alt="Tudor Damian" />
+                </div>
+                <div className="flex flex-col">
+                  <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                    AI Ate My Brain: Rebuilding Critical Thinking in
+                    Cybersecurity
+                  </div>
+                  <div className="text-epicurean-orange text-base">
+                    Tudor Damian
+                  </div>
+                  <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">
+                    {" "}
+                    Cybersecurity & Cloud Advisor @ D3 Cyber
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
+              <div className="text-chrome  text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                15:45
+              </div>
+              <div className="text-liliac-fields text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                Coffee Break
+              </div>
+            </div>
+
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
+              <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
+                16:15
+              </div>
+              <div className="flex flex-row gap-3 items-center">
+                <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[130px]">
+                  <img src={placeHolder} alt="panel icon" />
+                </div>
+                <div className="flex flex-col">
+                  <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                    To be announced
+                  </div>
+                  <div className="text-epicurean-orange text-base">
+                    George Dragusin @ ProVision
+                  </div>
+                  <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">
+                    {" "}
+                    Cyber Advisor @ ProVision
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
+              <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
+                16:45
+              </div>
+              <div className="flex flex-row gap-3 items-center">
+                <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[64px]">
+                  <img src={jennyradcliffe} alt="Jenny Radcliffe" />
+                </div>
+                <div className="flex flex-col">
+                  <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                    The People Hacker
+                  </div>
+                  <div className="text-epicurean-orange text-base">
+                    Jenny Radcliffe
+                  </div>
+                  <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">
+                    {" "}
+                    {/* Timisoara Mayor's Personal advisor on Digitalization and
+                    Smart City */}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
+              <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
+                17:45
+              </div>
+              <div className="flex flex-row gap-3 items-center">
+                <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[64px]">
+                  <img src={adrians} alt="Adrian Seceleanu" />
+                </div>
+                <div className="flex flex-col">
+                  <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                    Closing Remarks
+                  </div>
+                  <div className="text-epicurean-orange text-base">
+                    Adrian Seceleanu{" "}
+                    <span className="text-white"> [moderator] </span>
+                  </div>
+                  <div className="text-liliac-fields text-sm leaning-[16px]">
+                    Editor Business Hi-Tech, Ziarul Financiar
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-row gap-4 font-medium py-3">
+              <div className="text-chrome  text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                18:30
+              </div>
+              <div className="text-liliac-fields text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
+                NETWORKING PARTY
+              </div>
             </div>
           </div>
         </div>
       </div>
-    );
-}
+      <div className="flex flex-col w-full bg-heise-black p-[30px] xl:p-[30px] xs:px-[10px] justify-center">
+        {/* <h2 className="font-medium text-[40px] leading-[40px] text-liliac-fields font-simplon-mono">
+          The 2024 Aftermovie
+        </h2> */}
+
+        <div className="flex items-center">
+          <div className="relative w-full max-w-4xl aspect-video rounded-lg overflow-hidden shadow-2xl">
+            <iframe
+              src="https://www.youtube.com/embed/lbzCoPbNhNE"
+              title="Timisoara Cyber Forum - Previous Event"
+              className="w-full h-full"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

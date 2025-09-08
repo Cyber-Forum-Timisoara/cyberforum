@@ -187,7 +187,7 @@ const Homepage = () => {
         <VideoFooterContainer
           date="October 2nd 2025"
           location="Iulius Congress Hall"
-          registration="Registration opens soon"
+          registration="Buy your ticket now"
         />
         <Footer />
       </div>
