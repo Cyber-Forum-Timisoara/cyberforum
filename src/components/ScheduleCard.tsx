@@ -78,7 +78,7 @@ export const ScheduleCard = () => {
                 10:45{" "}
               </div>
               <div className="flex flex-row gap-3 items-center">
-                <div className=" p-3 flex flex-row items-center h-[130px] w-[130px] min-w-[130px]">
+                 <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[130px]">
                   <img src={adi} alt="Adrian Smales" />
                 </div>
                 <div className="flex flex-col">
