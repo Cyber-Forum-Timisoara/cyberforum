@@ -8,11 +8,15 @@ import tudor from "../images/tudor.png";
 import adrians from "../images/adriansec.png";
 import panelGroup from "../images/panel-group.svg";
 import placeHolder from "../images/placeholder.png";
+import alexbertea from "../images/alexbertea.png";
+import georgedragusin from "../images/george.png";
+import ioancalauz from "../images/ioancalauz.png";
+import sebastian from "../images/sebastian.png";
 
 export const ScheduleCard = () => {
   return (
     <div className="flex flex-col w-full gap-5 font-simplon-mono  ml:flex-row">
-      <div className="flex flex-col w-full bg-heise-black p-[30px] xl:p-[30px] xs:px-[10px] gap-8">
+      <div className="flex flex-col w-full bg-heise-black p-[20px] xl:p-[30px] xs:px-[10px] gap-8">
         <h2 className="font-medium text-[40px] leading-[40px] text-liliac-fields font-simplon-mono">
           Thursday, October 2nd
         </h2>
@@ -78,7 +82,7 @@ export const ScheduleCard = () => {
                 10:45{" "}
               </div>
               <div className="flex flex-row gap-3 items-center">
-                 <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[130px]">
+                <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[130px]">
                   <img src={adi} alt="Adrian Smales" />
                 </div>
                 <div className="flex flex-col">
@@ -110,8 +114,17 @@ export const ScheduleCard = () => {
                 11:45
               </div>
               <div className="flex flex-row gap-3 items-center">
-                <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[130px]">
-                  <img src={placeHolder} alt="panel icon" />
+                <div className=" relative flex items-center h-[94px] w-[150px] min-w-[150px]">
+                  <img
+                    src={janmiler}
+                    alt="Jan Miller"
+                    className="absolute left-0 top-0 w-[94px] h-[94px] rounded-full border-2 border-heise-black z-10 shadow-lg"
+                  />
+                  <img
+                    src={alexbertea}
+                    alt="Alex Bertea"
+                    className="absolute left-9 top-0 w-[94px] h-[94px] rounded-full border-2 border-heise-black z-20 shadow-lg"
+                  />
                 </div>
                 <div className="flex flex-col">
                   <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
@@ -129,20 +142,32 @@ export const ScheduleCard = () => {
                 12:45
               </div>
               <div className="flex flex-row gap-3 items-center">
-                <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[130px]">
-                  <img src={placeHolder} alt="panel icon" />
+                <div className=" relative flex items-center h-[94px] w-[150px] min-w-[150px]">
+                  <img
+                    src={sebastian}
+                    alt="Jan Miller"
+                    className="absolute left-0 top-0 w-[94px] h-[94px] rounded-full border-2 border-heise-black z-10 shadow-lg"
+                  />
+                  <img
+                    src={ioancalauz}
+                    alt="Alex Bertea"
+                    className="absolute left-9 top-0 w-[94px] h-[94px] rounded-full border-2 border-heise-black z-20 shadow-lg"
+                  />
                 </div>
                 <div className="flex flex-col">
                   <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
-                    To be announced
+                    Industrial Cybersecurity: Safeguarding Operations through a
+                    Defense-in-Depth Strategy
                   </div>
                   <div className="text-epicurean-orange text-base">
-                    Speaker to be announced{" "}
+                    Sebastian Ciceu @ ProVision • Ioan Calauz @ ProVision
                   </div>
-                  {/* <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">
+                  <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">
                     {" "}
-                    TO BE ANNOUNCED
-                  </div> */}
+                    Principal Engineer – Infrastructure & Cybersecurity
+                    Solutions at Emerson • Manager - European Software
+                    Deployment Center at Emerson
+                  </div>
                 </div>
               </div>
             </div>
@@ -214,7 +239,7 @@ export const ScheduleCard = () => {
               </div>
               <div className="flex flex-row gap-3 items-center">
                 <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[130px]">
-                  <img src={placeHolder} alt="panel icon" />
+                  <img src={georgedragusin} alt="panel icon" />
                 </div>
                 <div className="flex flex-col">
                   <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
