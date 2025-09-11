@@ -137,7 +137,7 @@ export const ScheduleCard = () => {
               </div>
             </div>
 
-            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-1">
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
               <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
                 12:45
               </div>
