@@ -137,11 +137,11 @@ export const ScheduleCard = () => {
               </div>
             </div>
 
-            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium ">
+            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
               <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
                 12:45
               </div>
-              <div className="flex flex-row gap-3 items-center y-">
+              <div className="flex flex-row gap-3 items-center">
                 <div className=" relative flex items-center h-[94px] w-[150px] min-w-[150px]">
                   <img
                     src={sebastian}
