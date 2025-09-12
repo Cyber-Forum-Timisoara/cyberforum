@@ -160,7 +160,7 @@ export const ScheduleCard = () => {
                     Defense-in-Depth Strategy
                   </div>
                   <div className="text-epicurean-orange text-base">
-                    Sebastian Ciceu @ ProVision • Ioan Calauz @ ProVision
+                    Sebastian Ciceu @ Emerson • Ioan Calauz @ Emerson
                   </div>
                   <div className="text-liliac-fields text-sm leaning-[16px] leading-[16px]">
                     {" "}
