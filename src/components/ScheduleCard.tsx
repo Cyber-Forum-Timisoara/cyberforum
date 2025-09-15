@@ -325,24 +325,7 @@ export const ScheduleCard = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col w-full bg-heise-black p-[30px] xl:p-[30px] xs:px-[10px] justify-center">
-        {/* <h2 className="font-medium text-[40px] leading-[40px] text-liliac-fields font-simplon-mono">
-          The 2024 Aftermovie
-        </h2> */}
-
-        <div className="flex items-center justify-center">
-          <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-2xl">
-            <iframe
-              src="https://www.youtube.com/embed/lbzCoPbNhNE"
-              title="Timisoara Cyber Forum - Previous Event"
-              className="w-full h-full"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
-      </div>
+   
     </div>
   );
 };

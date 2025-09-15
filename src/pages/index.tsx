@@ -179,8 +179,21 @@ const Homepage = () => {
           <LocationCard />
         </div>
 
-        {/* <HeaderBanner text="Sponsors" icon={sponsor} />
-        <LogoCard /> */}
+        <HeaderBanner text="2024 After Movie" icon={sponsor} />
+           <div className="flex flex-col w-full bg-heise-black p-[30px] xl:p-[30px] xs:px-[10px] justify-center">
+            <div className="flex items-center justify-center">
+              <div className="w-full aspect-video rounded-lg shadow-2xl">
+                <iframe
+                  src="https://www.youtube.com/embed/lbzCoPbNhNE"
+                  title="Timisoara Cyber Forum - Previous Event"
+                  className="w-full h-[1100px]"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+        </div>
       </div>
 
       <div>
