@@ -93,7 +93,7 @@ export const ScheduleCard = () => {
 
             <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
               <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
-                10:45{" "}
+                10:30{" "}
               </div>
               <div className="flex flex-row gap-3 items-center">
                 <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[130px]">
@@ -116,7 +116,7 @@ export const ScheduleCard = () => {
 
             <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
               <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
-                11:15
+                11:00
               </div>
               <div className="flex flex-row gap-3 items-center">
                 <div className=" relative flex items-center h-[94px] w-[150px] min-w-[150px]">
@@ -151,7 +151,7 @@ export const ScheduleCard = () => {
 
             <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
               <div className="text-chrome  text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
-                11:45
+                11:30
               </div>
               <div className="text-liliac-fields text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
                 Coffee Break
@@ -241,7 +241,8 @@ export const ScheduleCard = () => {
                     Panel about education paths in cybersecurity{" "}
                   </div>
                   <div className="text-epicurean-orange text-base">
-                    Andreea Jebelean @ OPSWAT • Matei Macsinga @ OPSWAT
+                    Andreea Jebelean @ OPSWAT • Matei Macsinga @ OPSWAT • Radu
+                    Ticiu @ CoderDojo
                   </div>
                 </div>
               </div>
