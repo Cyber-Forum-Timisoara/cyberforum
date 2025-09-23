@@ -1,13 +1,9 @@
-import React, {useState} from "react";
-import { Badge } from "./Badge";
-import scan from '../images/panel-group.svg';
+import React from "react";
 import janmiler from "../images/janm.png";
 import jennyradcliffe from "../images/jenny.png";
 import adi from "../images/adi.png";
 import tudor from "../images/tudor.png";
 import adrians from "../images/adriansec.png";
-import panelGroup from "../images/panel-group.svg";
-import placeHolder from "../images/placeholder.png";
 import alexbertea from "../images/alexbertea.png";
 import georgedragusin from "../images/george.png";
 import ioancalauz from "../images/ioan-calauz 1.svg";
@@ -16,6 +12,7 @@ import matiemacsinga from "../images/matei-macsinga 1.svg";
 import yugoneumorni from "../images/yugo-neumorni.svg";
 import sebastian2 from "../images/sebastian-ciceu-2.svg";
 import jackmadine from "../images/jack-madine.svg";
+import raduticiu from "../images/radu-ticiu.svg";
 
 export const ScheduleCard = () => {
   return (
@@ -73,7 +70,7 @@ export const ScheduleCard = () => {
                   <img
                     src={jackmadine}
                     alt="Alex Bertea"
-                    className="absolute left-9 top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
+                    className="absolute left-10 top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
                   />
                 </div>
                 <div className="flex flex-col">
@@ -128,7 +125,7 @@ export const ScheduleCard = () => {
                   <img
                     src={ioancalauz}
                     alt="Alex Bertea"
-                    className="absolute left-9 top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
+                    className="absolute left-10 top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
                   />
                 </div>
                 <div className="flex flex-col">
@@ -172,7 +169,7 @@ export const ScheduleCard = () => {
                   <img
                     src={alexbertea}
                     alt="Alex Bertea"
-                    className="absolute left-9 top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
+                    className="absolute left-10 top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
                   />
                 </div>
                 <div className="flex flex-col">
@@ -224,7 +221,7 @@ export const ScheduleCard = () => {
                 14:00
               </div>
               <div className="flex flex-row gap-3 items-center">
-                <div className=" relative flex items-center h-[94px] w-[150px] min-w-[150px]">
+                <div className=" relative flex items-center h-[94px] w-[180px] min-w-[180px]">
                   <img
                     src={andreeajebelean}
                     alt="andrea"
@@ -233,7 +230,12 @@ export const ScheduleCard = () => {
                   <img
                     src={matiemacsinga}
                     alt="matei"
-                    className="absolute left-9 top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
+                    className="absolute left-10 top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
+                  />
+                  <img
+                    src={raduticiu}
+                    alt="radu"
+                    className="absolute left-20 top-0 w-[94px] h-[94px] rounded-full z-30 shadow-lg"
                   />
                 </div>
                 <div className="flex flex-col">
