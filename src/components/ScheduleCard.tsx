@@ -13,6 +13,7 @@ import yugoneumorni from "../images/yugo-neumorni.svg";
 import sebastian2 from "../images/sebastian-ciceu-2.svg";
 import jackmadine from "../images/jack-madine.svg";
 import raduticiu from "../images/radu-ticiu.svg";
+import cosmin from "../images/cosmin-bonchis.svg";
 
 export const ScheduleCard = () => {
   return (
@@ -221,7 +222,7 @@ export const ScheduleCard = () => {
                 14:00
               </div>
               <div className="flex flex-row gap-3 items-center">
-                <div className=" relative flex items-center h-[94px] w-[180px] min-w-[180px]">
+                <div className=" relative flex items-center h-[94px] w-[240px] min-w-[240px]">
                   <img
                     src={andreeajebelean}
                     alt="andrea"
@@ -230,12 +231,17 @@ export const ScheduleCard = () => {
                   <img
                     src={matiemacsinga}
                     alt="matei"
-                    className="absolute left-10 top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
+                    className="absolute left-11 top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
                   />
                   <img
                     src={raduticiu}
                     alt="radu"
                     className="absolute left-20 top-0 w-[94px] h-[94px] rounded-full z-30 shadow-lg"
+                  />
+                  <img
+                    src={cosmin}
+                    alt="cosmin"
+                    className="absolute left-32 top-0 w-[94px] h-[94px] rounded-full z-40 shadow-lg"
                   />
                 </div>
                 <div className="flex flex-col">
@@ -244,7 +250,7 @@ export const ScheduleCard = () => {
                   </div>
                   <div className="text-epicurean-orange text-base">
                     Andreea Jebelean @ OPSWAT • Matei Macsinga @ OPSWAT • Radu
-                    Ticiu @ CoderDojo
+                    Ticiu @ CoderDojo • Cosmin Bonchis @ UVT
                   </div>
                 </div>
               </div>
