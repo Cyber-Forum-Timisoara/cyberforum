@@ -36,11 +36,11 @@ export const ScheduleCard = () => {
               </div>
             </div>
 
-            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium ">
+            <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col border-b-[1px] border-dark-spell font-medium py-3">
               <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
                 09:30
               </div>
-              <div className="flex flex-row gap-3 items-center">
+              <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col items-center">
                 <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[64px]">
                   <img src={adrians} alt="Adrian Seceleanu" />
                 </div>
@@ -59,21 +59,21 @@ export const ScheduleCard = () => {
               </div>
             </div>
 
-            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
+            <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col border-b-[1px] border-dark-spell font-medium py-3">
               <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
                 09:45
               </div>
-              <div className="flex flex-row gap-3 items-center">
-                <div className=" relative flex items-center h-[94px] w-[150px] min-w-[150px]">
+              <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col items-center">
+                <div className=" relative flex items-center h-[100px] w-[150px] min-w-[150px]">
                   <img
                     src={janmiler}
                     alt="Jan Miller"
-                    className="absolute left-0 top-0 w-[94px] h-[94px] rounded-full z-10 shadow-lg"
+                    className="absolute left-0 top-0 w-[100px] h-[100px] rounded-full z-10 shadow-lg"
                   />
                   <img
                     src={jackmadine}
                     alt="Alex Bertea"
-                    className="absolute left-10 top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
+                    className="absolute left-10 top-0 w-[100px] h-[100px] rounded-full z-20 shadow-lg"
                   />
                 </div>
                 <div className="flex flex-col">
@@ -91,11 +91,11 @@ export const ScheduleCard = () => {
               </div>
             </div>
 
-            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
+            <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col border-b-[1px] border-dark-spell font-medium">
               <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
                 10:30{" "}
               </div>
-              <div className="flex flex-row gap-3 items-center">
+              <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col items-center">
                 <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[130px]">
                   <img src={adi} alt="Adrian Smales" />
                 </div>
@@ -114,21 +114,21 @@ export const ScheduleCard = () => {
               </div>
             </div>
 
-            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium py-3">
+            <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col border-b-[1px] border-dark-spell font-medium py-3">
               <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
                 11:00
               </div>
-              <div className="flex flex-row gap-3 items-center">
-                <div className=" relative flex items-center h-[94px] w-[150px] min-w-[150px]">
+              <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col items-center">
+                <div className=" relative flex items-center h-[100px] w-[150px] min-w-[150px]">
                   <img
                     src={sebastian2}
                     alt="Jan Miller"
-                    className="absolute left-0 top-0 w-[94px] h-[94px] rounded-full z-10 shadow-lg"
+                    className="absolute left-0 top-0 w-[100px] h-[100px] rounded-full z-10 shadow-lg"
                   />
                   <img
                     src={ioancalauz}
                     alt="Alex Bertea"
-                    className="absolute left-10 top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
+                    className="absolute left-10 top-0 w-[100px] h-[100px] rounded-full z-20 shadow-lg"
                   />
                 </div>
                 <div className="flex flex-col">
@@ -158,31 +158,31 @@ export const ScheduleCard = () => {
               </div>
             </div>
 
-            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
+            <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col  border-b-[1px] border-dark-spell font-medium py-3">
               <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
                 11:45
               </div>
-              <div className="flex flex-row gap-3 items-center">
-                <div className=" relative flex items-center h-[94px] w-[220px] min-w-[220px]">
+              <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col items-center">
+                <div className=" relative flex items-center h-[100px] w-[220px] min-w-[220px]">
                   <img
                     src={janmiler}
                     alt="Jan Miller"
-                    className="absolute left-0 top-0 w-[94px] h-[94px] rounded-full z-10 shadow-lg"
+                    className="absolute left-0 top-0 w-[100px] h-[100px] rounded-full z-10 shadow-lg"
                   />
                   <img
                     src={alexbertea}
                     alt="Alex Bertea"
-                    className="absolute left-10 top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
+                    className="absolute left-10 top-0 w-[100px] h-[100px] rounded-full z-20 shadow-lg"
                   />
                   <img
                     src={yugoneumorni}
                     alt="Yugo Neumorni"
-                    className="absolute left-20 top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
+                    className="absolute left-20 top-0 w-[100px] h-[100px] rounded-full z-20 shadow-lg"
                   />
                   <img
                     src={romanoperini}
                     alt="Romano Perini"
-                    className="absolute left-[120px] top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
+                    className="absolute left-[120px] top-0 w-[100px] h-[100px] rounded-full z-20 shadow-lg"
                   />
                 </div>
                 <div className="flex flex-col">
@@ -197,11 +197,11 @@ export const ScheduleCard = () => {
               </div>
             </div>
 
-            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
+            <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col  border-b-[1px] border-dark-spell font-medium py-3">
               <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
                 12:45
               </div>
-              <div className="flex flex-row gap-3 items-center">
+              <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col items-center">
                 <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[64px]">
                   <img src={yugoneumorni} alt="Yugo Neumorni" />
                 </div>
@@ -230,36 +230,36 @@ export const ScheduleCard = () => {
               </div>
             </div>
 
-            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
+            <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col  border-b-[1px] border-dark-spell font-medium py-3">
               <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
                 14:00
               </div>
-              <div className="flex flex-row gap-3 items-center">
-                <div className=" relative flex items-center h-[94px] w-[260px] min-w-[260px]">
+              <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col items-center">
+                <div className=" relative flex items-center h-[100px] w-[260px] min-w-[260px]">
                   <img
                     src={andreeajebelean}
                     alt="andrea"
-                    className="absolute left-0 top-0 w-[94px] h-[94px] rounded-full z-10 shadow-lg"
+                    className="absolute left-0 top-0 w-[100px] h-[100px] rounded-full z-10 shadow-lg"
                   />
                   <img
                     src={matiemacsinga}
                     alt="matei"
-                    className="absolute left-10 top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
+                    className="absolute left-10 top-0 w-[100px] h-[100px] rounded-full z-20 shadow-lg"
                   />
                   <img
                     src={raduticiu}
                     alt="radu"
-                    className="absolute left-20 top-0 w-[94px] h-[94px] rounded-full z-30 shadow-lg"
+                    className="absolute left-20 top-0 w-[100px] h-[100px] rounded-full z-30 shadow-lg"
                   />
                   <img
                     src={cosmin}
                     alt="cosmin"
-                    className="absolute left-[120px] top-0 w-[94px] h-[94px] rounded-full z-40 shadow-lg"
+                    className="absolute left-[120px] top-0 w-[100px] h-[100px] rounded-full z-40 shadow-lg"
                   />
                   <img
                     src={razvan}
                     alt="razvan"
-                    className="absolute left-[160px] top-0 w-[94px] h-[94px] rounded-full z-40 shadow-lg"
+                    className="absolute left-[160px] top-0 w-[100px] h-[100px] rounded-full z-40 shadow-lg"
                   />
                 </div>
                 <div className="flex flex-col">
@@ -275,11 +275,11 @@ export const ScheduleCard = () => {
               </div>
             </div>
 
-            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
+            <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col  border-b-[1px] border-dark-spell font-medium py-3">
               <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
                 15:00
               </div>
-              <div className="flex flex-row gap-3 items-center">
+              <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col items-center">
                 <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[64px]">
                   <img src={tudor} alt="Tudor Damian" />
                 </div>
@@ -308,11 +308,11 @@ export const ScheduleCard = () => {
               </div>
             </div>
 
-            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
+            <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col  border-b-[1px] border-dark-spell font-medium py-3">
               <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
                 16:15
               </div>
-              <div className="flex flex-row gap-3 items-center">
+              <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col items-center">
                 <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[130px]">
                   <img src={georgedragusin} alt="panel icon" />
                 </div>
@@ -331,11 +331,11 @@ export const ScheduleCard = () => {
               </div>
             </div>
 
-            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
+            <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col  border-b-[1px] border-dark-spell font-medium py-3">
               <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
                 16:45
               </div>
-              <div className="flex flex-row gap-3 items-center">
+              <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col items-center">
                 <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[64px]">
                   <img src={jennyradcliffe} alt="Jenny Radcliffe" />
                 </div>
@@ -355,11 +355,11 @@ export const ScheduleCard = () => {
               </div>
             </div>
 
-            <div className="flex flex-row gap-4 border-b-[1px] border-dark-spell font-medium">
+            <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col  border-b-[1px] border-dark-spell font-medium py-3">
               <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium flex items-center">
                 17:45
               </div>
-              <div className="flex flex-row gap-3 items-center">
+              <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col items-center">
                 <div className=" flex flex-row items-center h-[130px] w-[130px] min-w-[64px]">
                   <img src={adrians} alt="Adrian Seceleanu" />
                 </div>
