@@ -14,6 +14,8 @@ import sebastian2 from "../images/sebastian-ciceu-2.svg";
 import jackmadine from "../images/jack-madine.svg";
 import raduticiu from "../images/radu-ticiu.svg";
 import cosmin from "../images/cosmin-bonchis.svg";
+import romanoperini from "../images/romano-perini.svg";
+import razvan from "../images/razvan-bogdan.svg";
 
 export const ScheduleCard = () => {
   return (
@@ -161,7 +163,7 @@ export const ScheduleCard = () => {
                 11:45
               </div>
               <div className="flex flex-row gap-3 items-center">
-                <div className=" relative flex items-center h-[94px] w-[150px] min-w-[150px]">
+                <div className=" relative flex items-center h-[94px] w-[220px] min-w-[220px]">
                   <img
                     src={janmiler}
                     alt="Jan Miller"
@@ -172,13 +174,24 @@ export const ScheduleCard = () => {
                     alt="Alex Bertea"
                     className="absolute left-10 top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
                   />
+                  <img
+                    src={yugoneumorni}
+                    alt="Yugo Neumorni"
+                    className="absolute left-20 top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
+                  />
+                  <img
+                    src={romanoperini}
+                    alt="Romano Perini"
+                    className="absolute left-[120px] top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
+                  />
                 </div>
                 <div className="flex flex-col">
                   <div className="text-white text-xl xl:text-xl xs:text-sm sm:text-sm font-medium">
                     Threat Landscape in Romania
                   </div>
                   <div className="text-epicurean-orange text-base">
-                    Alex Bertea @ ProVision • Jan Miller @ OPSWAT
+                    Alex Bertea @ ProVision • Jan Miller @ OPSWAT • Yugo
+                    Neumorni @ CIO Council • Romano Perini @ Aumovio
                   </div>
                 </div>
               </div>
@@ -222,7 +235,7 @@ export const ScheduleCard = () => {
                 14:00
               </div>
               <div className="flex flex-row gap-3 items-center">
-                <div className=" relative flex items-center h-[94px] w-[240px] min-w-[240px]">
+                <div className=" relative flex items-center h-[94px] w-[260px] min-w-[260px]">
                   <img
                     src={andreeajebelean}
                     alt="andrea"
@@ -231,7 +244,7 @@ export const ScheduleCard = () => {
                   <img
                     src={matiemacsinga}
                     alt="matei"
-                    className="absolute left-11 top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
+                    className="absolute left-10 top-0 w-[94px] h-[94px] rounded-full z-20 shadow-lg"
                   />
                   <img
                     src={raduticiu}
@@ -241,7 +254,12 @@ export const ScheduleCard = () => {
                   <img
                     src={cosmin}
                     alt="cosmin"
-                    className="absolute left-32 top-0 w-[94px] h-[94px] rounded-full z-40 shadow-lg"
+                    className="absolute left-[120px] top-0 w-[94px] h-[94px] rounded-full z-40 shadow-lg"
+                  />
+                  <img
+                    src={razvan}
+                    alt="razvan"
+                    className="absolute left-[160px] top-0 w-[94px] h-[94px] rounded-full z-40 shadow-lg"
                   />
                 </div>
                 <div className="flex flex-col">
@@ -250,7 +268,8 @@ export const ScheduleCard = () => {
                   </div>
                   <div className="text-epicurean-orange text-base">
                     Andreea Jebelean @ OPSWAT • Matei Macsinga @ OPSWAT • Radu
-                    Ticiu @ CoderDojo • Cosmin Bonchis @ UVT
+                    Ticiu @ CoderDojo • Cosmin Bonchis @ UVT • Razvan Bogdan @
+                    UPT
                   </div>
                 </div>
               </div>
