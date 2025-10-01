@@ -165,8 +165,8 @@ export const ScheduleCard = () => {
               <div className="flex flex-row xs:flex-col xl:flex-row sm:flex-col items-center">
                 <div className=" relative flex items-center h-[100px] w-[220px] min-w-[220px]">
                   <img
-                    src={janmiler}
-                    alt="Jan Miller"
+                    src={jackmadine}
+                    alt="Jack Madine"
                     className="absolute left-0 top-0 w-[100px] h-[100px] rounded-full z-10 shadow-lg"
                   />
                   <img
@@ -190,7 +190,7 @@ export const ScheduleCard = () => {
                     Threat Landscape in Romania
                   </div>
                   <div className="text-epicurean-orange text-base">
-                    Alex Bertea @ ProVision • Jan Miller @ OPSWAT • Yugo
+                    Alex Bertea @ ProVision • Jack Madine @ OPSWAT • Yugo
                     Neumorni @ CIO Council • Romano Perini @ Aumovio
                   </div>
                 </div>
